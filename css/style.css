@@ -1,5 +1,30 @@
 body{
-	font-family: sans-serif;
-	background: black;
+	font-family: 'Crimson Text', serif;
+	background:black;
+	font-size: 10pt;
 	color:white;
+}
+
+h1{
+	font-size: 30pt;
+	position: absolute;
+	top:350px;
+	left:600px;
+}
+
+h2{
+	font-size: 10pt;
+	position: absolute;
+	top:350px;
+	left:600px;
+}
+
+img{
+	position: absolute;
+	top:250px;
+	left:400px;
+	z-index: -1;
+	opacity: 0.6;
+	height:300px;
+	width: 450px;
 }

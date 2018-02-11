@@ -1,0 +1,195 @@
+html, body {
+  height: 100%;
+  background: black;
+}
+
+.en{
+  font-weight: lighter;
+  font-size: 10pt;
+  color: #F4ED7C;
+  opacity: 0.8;
+  margin-top:300px;
+  margin-left: 20px;
+  text-align: center;
+}
+
+
+.chartis{
+  font-weight: lighter;
+  color: rgba(255,255,255,0.7);
+  font-family: Songti;
+  font-size: 15px;
+  position: absolute;
+  margin-left: 590px;
+  margin-top:430px;
+  z-index: 99;
+}
+
+
+.artis{
+  font-weight: lighter;
+  font-size: 10pt;
+  color: #F4ED7C;
+  opacity: 0.8;
+  margin-top:500px;
+  margin-left: 20px;
+  text-align: center;
+}
+
+img{
+    border-radius: 50%;
+    margin-left: 510px;
+    opacity: 0.7
+}
+
+
+.ardes{
+  font-weight: lighter;
+  font-size: 8pt;
+  color: #F7E8AA;
+  opacity: 0.8;
+  margin-top:15px;
+  margin-left: 20px;
+  text-align: center;
+  opacity: 0.5
+}
+
+.des{
+    font-weight: lighter;
+  color: rgba(255,255,255,0.7);
+  font-family: Songti;
+  font-size: 15px;
+  position: absolute;
+  margin-left: 575px;
+  margin-top:90px;
+  z-index: 99;
+}
+
+.endes{
+  font-weight: lighter;
+  font-size: 10pt;
+  color: #F4ED7C;
+  opacity: 0.8;
+  margin-top:160px;
+  margin-left: 20px;
+  text-align: center;
+
+}
+
+
+.text{
+  font-weight: lighter;
+  font-size: 8pt;
+  color: #F7E8AA;
+  opacity: 0.8;
+  margin-top:10px;
+  margin-left: 325px;
+text-align: left;
+text-indent: 50px;
+opacity: 0.4
+}
+
+
+.slider {
+  background-color: rgb(29,24,5);
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-size: 1300px 550px;
+  height: 350px;
+  margin: 0 auto;
+  margin-top: -450px;
+  margin-left: -50px;
+  position: relative;
+  top: 50%;
+  overflow: hidden;
+  width: 1300px;
+
+}
+
+.slider:hover .content {
+  -webkit-animation-play-state: paused;
+  -moz-animation-play-state: paused;
+}
+
+.slider:hover .paused {
+  opacity: 1;
+  -webkit-animation: fade 2s;
+  -webkit-animation-fill-mode: forwards;
+  -webkit-animation-delay: 2s;
+  -moz-animation: fade 2s;
+  -moz-animation-fill-mode: forwards;
+  -moz-animation-delay: 2s;
+}
+
+.title{
+  color: rgba(255,255,255,0.7);
+  font-family: Songti;
+  font-size: 30px;
+  position: absolute;
+  margin-left: 580px;
+  margin-top:50px;
+  z-index: 99;
+}
+
+
+.content {
+background:url(http://www.hwjyw.com/36/2011-04-07/U120P26T36D65F170DT20110426092326.jpg);
+  color: white;
+  height: 300px;
+  position: relative;
+  top: 30px;
+  width: 10000px;
+  -webkit-animation: move linear infinite;
+  -webkit-animation-duration: 100s;
+  -moz-animation: move linear infinite;
+  -moz-animation-duration: 100s;
+}
+
+@-webkit-keyframes move {
+  from {
+    left: 0px;
+  }
+  to {
+    left: -10000px;
+  }
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@-moz-keyframes move {
+  from {
+    left: 0px;
+  }
+  to {
+    left: -10000px;
+  }
+}
+
+@-moz-keyframes fade {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.wrapper {
+  width: 1200px;
+  height: 1500px;
+  padding: 50px;
+  background-color: rgb(46,50,17);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+

@@ -8,7 +8,7 @@ body {
 
 .wrapper {
   width: 1000px;
-  height: 625px;
+  height: 1200px;
   padding: 50px;
   background-color: black;
   margin-left: auto;
@@ -44,28 +44,31 @@ li{
 }
 
 .button1{
-	width: 5px;
-	height: 16px;
+	width: 20px;
+	height: 20px;
 	background: #6D2525;
 	border-color:  #6D2525;
 	border-radius: 50%;
-	margin-top: -00px;
+	position:absolute;
+	top:350px;
+	left:670px;
 }
 
 .button2{
-	width: 5px;
-	height: 16px;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
 	background: #472C49;
 	border-color:  #472C49;
-	border-radius: 50%;
-	position: relative;
-	top:-300px;
-	left:582px;
+	position: absolute;
+	top:430px;
+	left:855px;
 }
 
+
 .button3{
-	width: 5px;
-	height: 16px;
+	width: 20px;
+	height: 20px;
 	background: #2D2C5C;
 	border-color:  #2D2C5C;
 	border-radius: 50%;
@@ -75,8 +78,8 @@ li{
 }
 
 .button4{
-	width: 5px;
-	height: 16px;
+	width: 20px;
+	height: 20px;
 	background: #14481A;
 	border-color:  #14481A;
 	border-radius: 50%;
@@ -86,8 +89,8 @@ li{
 }
 
 .button5{
-	width: 5px;
-	height: 16px;
+	width: 20px;
+	height: 20px;
 	background: #815A37;
 	border-color:  #815A37;
 	border-radius: 50%;

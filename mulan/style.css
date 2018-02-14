@@ -6,14 +6,14 @@ body {
   font-family: serif;
 }
 
-/*.wrapper {
+.wrapper {
   width: 1000px;
   height: 625px;
   padding: 50px;
   background-color: black;
   margin-left: auto;
   margin-right: auto;
-}*/
+}
 
 .chmu{
 	font-size: 26px;
@@ -49,7 +49,7 @@ li{
 	background: #6D2525;
 	border-color:  #6D2525;
 	border-radius: 50%;
-	margin-top: -600px;
+	margin-top: -00px;
 }
 
 .button2{

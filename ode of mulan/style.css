@@ -1,0 +1,28 @@
+.wrapper{
+	width:1350px;
+	height: 1800px;
+	padding: 30px;
+	background-color: grey;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+body{
+	background:black;
+}
+
+
+.mulanci{
+  color: #F5A493;
+  font-size: 28pt;
+  text-align: center;
+  font-family: serif;
+}
+
+
+.ode{
+  color:white;
+  font-size: 20pt;
+  text-align: center;
+  font-family: serif;
+}

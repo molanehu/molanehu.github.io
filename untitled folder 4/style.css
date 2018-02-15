@@ -185,8 +185,9 @@ margin-top: 200px;
   content: attr(data-title);
   font-size: 14px;
   padding: 6px 10px;
-    top: 26px;
-  white-space: nowrap;
+    top: 6px;
+    left:700px;
+  white-space: pre-line;
 }
 
 

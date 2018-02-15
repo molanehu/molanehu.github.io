@@ -140,7 +140,23 @@ margin-top: 200px;
 }
 
 
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 300px;
+    background-color: black;
+    color: white;
+    text-align: left;
+    
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: 820px;
+    left: 60%;
+}
 
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
 
 
 

@@ -79,3 +79,72 @@ margin-top: 200px;
     margin-right: auto;
        margin-top: 80px
 }
+
+
+
+#buttona{
+  width:30px;
+  height:30px;
+  background: #6D2525;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
+  margin-left: 430px;
+  margin-top: -780px
+}
+
+
+#buttonb{
+  width:30px;
+  height:30px;
+  background: #472C49;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
+  margin-left: 780px;
+  margin-top: 150px
+}
+
+#buttonc{
+  width:30px;
+  height:30px;
+  background: #2D2C5C;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
+  margin-left: 430px;
+  margin-top: 150px
+}
+
+#buttond{
+  width:30px;
+  height:30px;
+  background: #14481A;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
+  margin-left: 430px;
+  margin-top: 150px
+}
+
+
+#buttone{
+  width:30px;
+  height:30px;
+  background: #815A37;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
+  margin-left:780px;
+  margin-top: 150px
+}
+
+
+
+
+
+
+
+
+
+

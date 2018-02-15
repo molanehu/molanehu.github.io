@@ -32,34 +32,50 @@ body{
 }
 
 .row{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-
+margin-top: 200px;
 }
 
 #zx{
   width:20%;
-  height: 20%
-
+  height: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 90px
 }
 
 #kq{
   width:20%;
-  height: 20%
+  height: 20%;
+      display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px
 }
 
 #jg{
   width:20%;
-  height: 20%
+  height: 20%;
+      display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px
 }
 
 #db{
   width:20%;
-  height: 20%
+  height: 20%;
+      display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px
 }
 
 #ps{
   width:20%;
-  height: 20%
+  height: 20%;
+      display: block;
+    margin-left: auto;
+    margin-right: auto;
+       margin-top: 80px
 }

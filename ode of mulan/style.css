@@ -31,9 +31,35 @@ body{
   margin-top: -30pt
 }
 
+.row{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 
-.list{
-  text-align: center;
-  margin-top: -600pt;
-  list-style-type:none;
+}
+
+#zx{
+  width:20%;
+  height: 20%
+
+}
+
+#kq{
+  width:20%;
+  height: 20%
+}
+
+#jg{
+  width:20%;
+  height: 20%
+}
+
+#db{
+  width:20%;
+  height: 20%
+}
+
+#ps{
+  width:20%;
+  height: 20%
 }

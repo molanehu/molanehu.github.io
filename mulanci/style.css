@@ -8,9 +8,7 @@
 	height: 1800PX;
   padding: 20px;
 	background-color: black;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top:auto;
+margin: 0 auto;
 }
 
 body{

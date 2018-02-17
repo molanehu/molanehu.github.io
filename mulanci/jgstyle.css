@@ -1,0 +1,16 @@
+@-ms-viewport{
+  width: device-width;
+}
+
+
+.wrapper{
+	width:1400px;
+	height: 1000px;
+	background-color: #6D2525;
+margin: 0 auto;
+padding:0;
+}
+
+body{
+	background:black;
+}

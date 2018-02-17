@@ -93,9 +93,15 @@ margin-top: 200px;
   -webkit-border-radius: 20px;
   border-radius: 20px;
   margin-left: 360px;
-  margin-top: -970px
+  margin-top: -970px;
+  opacity:1.0;
+  transition: opacity .6s;
 }
 
+#buttona:hover {
+    opacity: 0.2;
+    filter: alpha(opacity=100); 
+}
 
 
 
@@ -107,8 +113,15 @@ margin-top: 200px;
   -webkit-border-radius: 20px;
   border-radius: 20px;
   margin-left: 360px;
-  margin-top: 180px
+  margin-top: 180px;
+  opacity:1.0;
+  transition: opacity .6s;
 }
+#buttonb:hover {
+    opacity: 0.2;
+    filter: alpha(opacity=100); 
+}
+
 
 #buttonc{
   width:40px;
@@ -147,6 +160,8 @@ margin-top: 200px;
   margin-left:360px;
   margin-top: 180px
 }
+
+
 
 /*xiaozhongliangquan*/
 

@@ -242,11 +242,13 @@ img{
 
 
 
+.button{
+	margin-top:-120px;
+}
 
 
 
-
-/*#buttona{
+#buttona{
   width:40px;
   height:40px;
   background: #6D2525;
@@ -257,9 +259,9 @@ img{
   position: relative;
 top:700px;
 left:500px;
-}*/
+}
 
-/*#buttona:hover {
+#buttona:hover {
     opacity: 0.2;
     filter: alpha(opacity=100); 
 }
@@ -355,7 +357,7 @@ left:500px;
 
 
 
-*/
+
 
 
 

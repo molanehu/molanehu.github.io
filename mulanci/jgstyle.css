@@ -24,6 +24,23 @@ img{
 
 /*wanlifurongji*/
 /*chinese position*/
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 300px;
+    color: white;
+    text-align: left;
+    position: absolute;
+    z-index: 1;
+    top: 820px;
+    left: 60%;
+    margin: 0 auto
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+
 .tooltip {
   position: relative;
   color:#E2B68E;
@@ -74,6 +91,21 @@ img{
 
 /*shuoqi*/
 /*chinese position*/
+.tooltip1.tooltiptext {
+    visibility: hidden;
+    width: 300px;
+    color: white;
+    text-align: left;
+    position: absolute;
+    z-index: 1;
+    top: 820px;
+    left: 60%;
+    margin: 0 auto
+}
+
+.tooltip1:hover .tooltiptext {
+    visibility: visible;
+}
 .tooltip1 {
   position: relative;
   color:#E2B68E;
@@ -125,6 +157,21 @@ img{
 
 /*jiangjun*/
 /*chinese position*/
+.tooltip2 .tooltiptext {
+    visibility: hidden;
+    width: 300px;
+    color: white;
+    text-align: left;
+    position: absolute;
+    z-index: 1;
+    top: 820px;
+    left: 60%;
+    margin: 0 auto
+}
+
+.tooltip2:hover .tooltiptext {
+    visibility: visible;
+}
 .tooltip2 {
   position: relative;
   color:#E2B68E;
@@ -169,8 +216,8 @@ img{
 }
 
 #jiangjun:hover{
-  opacity:0.2
-  filter: alpha(opacity=100);
+  opacity:0.2;
+   filter: alpha(opacity=100);
 }
 
 

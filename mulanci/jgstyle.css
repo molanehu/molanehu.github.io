@@ -23,123 +23,175 @@ img{
 }
 
 /*wanlifurongji*/
-
+/*chinese position*/
 .tooltip {
-    position: relative;
-    display: inline-block;
-    color:#E2B68E;
-    font-size: 26px;
-    position:relative;
-    top:180px;
-    left:140px;
-    opacity:1;
+  position: relative;
+  color:#E2B68E;
+  top:100px;
+  left:630px;
+  font-size:26px
+}
+.tooltip:before,
+.tooltip:after {
+  display: block;
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+}
+/*english position*/
+.tooltip:before {
+  border-radius: 2px;
+  color:white;
+  content: attr(data-title);
+  font-size: 26px;
+    top:-100px;
+    left:-210px;
+  white-space: pre-line;
+  text-align: center
 }
 
-.tooltip:hover{
-   visibility: hidden;
+.tooltip.fade:after,
+.tooltip.fade:before {
+  transform: translate3d(0,-10px,0);
+  transition: all 4s ease-in;
+  transition: all 8s ease-out;
+}
+.tooltip.fade:hover:after,
+.tooltip.fade:hover:before {
+  opacity: 1;
+  transform: translate3d(0,0,0);
 }
 
-.tooltip .tooltiptext {
-    visibility: hidden;
-    width:800px;
-    color: #fff;
-    font-size: 24px;
-    text-align: center;
-    border-radius: 6px;
-    padding: 5px 0;
-    
-    /* Position the tooltip */
-    position: absolute;
-    z-index: 1;
-    bottom: 100%;
-    left: -340px;
+#wanli{
+  opacity:1.0;
 }
 
-.tooltip:hover .tooltiptext {
-    visibility: visible;
+#wanli:hover{
+  opacity:0.2
 }
 
 /*shuoqi*/
-
+/*chinese position*/
 .tooltip1 {
-    position: relative;
-    display: inline-block;
-    color:#E2B68E;
-    font-size: 26px;
-    position:relative;
-    top:480px;
-    left:-100px;
-    opacity:1;
+  position: relative;
+  color:#E2B68E;
+  top:350px;
+  left:530px;
+  font-size:30px
+}
+.tooltip1:before,
+.tooltip1:after {
+  display: block;
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+}
+/*english position*/
+.tooltip1:before {
+  border-radius: 2px;
+  color:white;
+  content: attr(data-title);
+  font-size: 26px;
+    top:50px;
+    left:-210px;
+  white-space: pre-line;
+  text-align: center
 }
 
-.tooltip1:hover{
-   visibility: hidden;
+.tooltip1.fade:after,
+.tooltip1.fade:before {
+  transform: translate3d(0,-10px,0);
+  transition: all 4s ease-in;
+  transition: all 8s ease-out;
+}
+.tooltip1.fade:hover:after,
+.tooltip1.fade:hover:before {
+  opacity: 1;
+  transform: translate3d(0,0,0);
 }
 
-.tooltip1 .tooltiptext1 {
-    visibility: hidden;
-    width:800px;
-    color: #fff;
-    font-size: 24px;
-    text-align: center;
-    border-radius: 6px;
-    padding: 5px 0;
-    
-    /* Position the tooltip */
-    position: absolute;
-    z-index: 1;
-    z-index: 1;
-    top: 100%;
-    left: -250px;
+#shuoqi{
+  opacity:1.0;
 }
 
-.tooltip1:hover .tooltiptext1 {
-    visibility: visible;
+#shuoqi:hover{
+  opacity:0.2
 }
-
 
 
 /*jiangjun*/
-
-.tooltip3 {
-    position: relative;
-    display: inline-block;
-    color:#E2B68E;
-    font-size: 26px;
-    position:relative;
-    top:600px;
-    left:-415px;
-    opacity:1;
+/*chinese position*/
+.tooltip2 {
+  position: relative;
+  color:#E2B68E;
+  top:400px;
+  left:420px;
+  font-size:50px
+}
+.tooltip2:before,
+.tooltip2:after {
+  display: block;
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+}
+/*english position*/
+.tooltip2:before {
+  border-radius: 2px;
+  color:white;
+  content: attr(data-title);
+  font-size: 40px;
+    top:80px;
+    left:0px;
+  white-space: pre-line;
+  text-align: center
 }
 
-.tooltip3:hover{
-   visibility: hidden;
+.tooltip2.fade:after,
+.tooltip2.fade:before {
+  transform: translate3d(0,-10px,0);
+  transition: all 4s ease-in;
+  transition: all 8s ease-out;
+}
+.tooltip2.fade:hover:after,
+.tooltip2.fade:hover:before {
+  opacity: 1;
+  transform: translate3d(0,0,0);
 }
 
-.tooltip3 .tooltiptext3 {
-    visibility: hidden;
-    width:800px;
-    color: #fff;
-    font-size: 24px;
-    text-align: center;
-    border-radius: 6px;
-    padding: 5px 0;
-    
-    /* Position the tooltip */
-    position: absolute;
-    z-index: 1;
-    z-index: 1;
-    top: 100%;
-    left: -250px;
+#jiangjun{
+  opacity:1.0;
 }
 
-.tooltip3:hover .tooltiptext3 {
-    visibility: visible;
+#jiangjun:hover{
+  opacity:0.2
 }
 
 
 
-#buttona{
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*#buttona{
   width:40px;
   height:40px;
   background: #6D2525;
@@ -150,9 +202,9 @@ img{
   position: relative;
 top:700px;
 left:500px;
-}
+}*/
 
-#buttona:hover {
+/*#buttona:hover {
     opacity: 0.2;
     filter: alpha(opacity=100); 
 }
@@ -233,32 +285,6 @@ left:500px;
 
 
 
-.tooltip {
-    position: relative;
-    display: inline-block;
-    border-bottom: 1px dotted black;
-}
-
-.tooltip .tooltiptext {
-    visibility: hidden;
-    width: 120px;
-    background-color: black;
-    color: #fff;
-    text-align: center;
-    border-radius: 6px;
-    padding: 5px 0;
-    
-    /* Position the tooltip */
-    position: absolute;
-    z-index: 1;
-    bottom: 100%;
-    left: 50%;
-    margin-left: -60px;
-}
-
-.tooltip:hover .tooltiptext {
-    visibility: visible;
-}
 
 
 
@@ -274,6 +300,7 @@ left:500px;
 
 
 
+*/
 
 
 

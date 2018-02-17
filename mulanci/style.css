@@ -85,6 +85,9 @@ margin-top: 200px;
 
 
 
+
+
+
 #buttona{
   width:40px;
   height:40px;
@@ -95,7 +98,7 @@ margin-top: 200px;
   margin-left: 360px;
   margin-top: -970px;
   opacity:1.0;
-  transition: opacity .6s;
+  position: relative
 }
 
 #buttona:hover {
@@ -115,7 +118,7 @@ margin-top: 200px;
   margin-left: 360px;
   margin-top: 180px;
   opacity:1.0;
-  transition: opacity .6s;
+  position: relative
 }
 #buttonb:hover {
     opacity: 0.2;
@@ -131,7 +134,13 @@ margin-top: 200px;
   -webkit-border-radius: 20px;
   border-radius: 20px;
   margin-left: 360px;
-  margin-top: 180px
+  margin-top: 180px;
+  position: relative;
+  opacity:1.0;
+}
+#buttonc:hover {
+    opacity: 0.2;
+    filter: alpha(opacity=100); 
 }
 
 
@@ -146,8 +155,15 @@ margin-top: 200px;
   -webkit-border-radius: 20px;
   border-radius: 20px;
   margin-left: 360px;
-  margin-top: 180px
+  margin-top: 180px;
+  position: relative;
+  opacity:1.0;
 }
+#buttond:hover {
+    opacity: 0.2;
+    filter: alpha(opacity=100); 
+}
+
 
 
 #buttone{
@@ -158,9 +174,14 @@ margin-top: 200px;
   -webkit-border-radius: 20px;
   border-radius: 20px;
   margin-left:360px;
-  margin-top: 180px
+  margin-top: 180px;
+  position: relative;
+  opacity: 1.0;
 }
-
+#buttone:hover {
+    opacity: 0.2;
+    filter: alpha(opacity=100); 
+}
 
 
 /*xiaozhongliangquan*/
@@ -192,16 +213,7 @@ margin-top: 200px;
   pointer-events: none;
   position: absolute;
 }
-.tooltip:after {
-  border-right: 6px solid transparent;
-  border-bottom: 6px solid rgba(0,0,0,.75); 
-  border-left: 6px solid transparent;
-  content: '';
-  height: 0;
-    top: 20px;
-    left: 20px;
-  width: 0;
-}
+
 .tooltip:before {
   background: rgba(0,0,0,.75);
   border-radius: 2px;
@@ -265,16 +277,7 @@ margin-top: 200px;
   pointer-events: none;
   position: absolute;
 }
-.tooltip2:after {
-  border-right: 6px solid transparent;
-  border-bottom: 6px solid rgba(0,0,0,.75); 
-  border-left: 6px solid transparent;
-  content: '';
-  height: 0;
-    top: 20px;
-    left: 20px;
-  width: 0;
-}
+
 .tooltip2:before {
   background: rgba(0,0,0,.75);
   border-radius: 2px;
@@ -344,16 +347,7 @@ margin-top: 200px;
   pointer-events: none;
   position: absolute;
 }
-.tooltip3:after {
-  border-right: 6px solid transparent;
-  border-bottom: 6px solid rgba(0,0,0,.75); 
-  border-left: 6px solid transparent;
-  content: '';
-  height: 0;
-    top: 20px;
-    left: 20px;
-  width: 0;
-}
+
 .tooltip3:before {
   background: rgba(0,0,0,.75);
   border-radius: 2px;
@@ -419,16 +413,7 @@ margin-top: 200px;
   pointer-events: none;
   position: absolute;
 }
-.tooltip4:after {
-  border-right: 6px solid transparent;
-  border-bottom: 6px solid rgba(0,0,0,.75); 
-  border-left: 6px solid transparent;
-  content: '';
-  height: 0;
-    top: 20px;
-    left: 20px;
-  width: 0;
-}
+
 .tooltip4:before {
   background: rgba(0,0,0,.75);
   border-radius: 2px;
@@ -495,16 +480,7 @@ margin-top: 200px;
   pointer-events: none;
   position: absolute;
 }
-.tooltip5:after {
-  border-right: 6px solid transparent;
-  border-bottom: 6px solid rgba(0,0,0,.75); 
-  border-left: 6px solid transparent;
-  content: '';
-  height: 0;
-    top: 20px;
-    left: 20px;
-  width: 0;
-}
+
 .tooltip5:before {
   background: rgba(0,0,0,.75);
   border-radius: 2px;

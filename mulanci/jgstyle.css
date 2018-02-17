@@ -258,9 +258,8 @@ img{
 }
 
 .tooltip5:before {
-  background: rgba(0,0,0,.75);
   border-radius: 2px;
-  color: #fff;
+  color: #E2B68E;
   content: attr(data-title);
   font-size: 26px;
   padding: 6px 10px;

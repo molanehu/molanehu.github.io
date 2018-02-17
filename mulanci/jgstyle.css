@@ -24,6 +24,17 @@ img{
 
 /*wanlifurongji*/
 
+
+
+
+
+
+
+
+
+
+
+
 .tooltip {
     position: relative;
     display: inline-block;
@@ -35,9 +46,6 @@ img{
     opacity:1;
 }
 
-.tooltip:hover{
-   visibility: hidden;
-}
 
 .tooltip .tooltiptext {
     visibility: hidden;
@@ -72,9 +80,6 @@ img{
     opacity:1;
 }
 
-.tooltip1:hover{
-   visibility: hidden;
-}
 
 .tooltip1 .tooltiptext1 {
     visibility: hidden;
@@ -112,9 +117,7 @@ img{
     opacity:1;
 }
 
-.tooltip3:hover{
-   visibility: hidden;
-}
+
 
 .tooltip3 .tooltiptext3 {
     visibility: hidden;

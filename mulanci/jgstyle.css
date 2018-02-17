@@ -261,10 +261,10 @@ img{
   border-radius: 2px;
   color: #E2B68E;
   content: attr(data-title);
-  font-size: 26px;
+  font-size: 96px;
   padding: 6px 10px;
     top: 6px;
-    left:780px;
+    left:700px;
   white-space: pre-line;
 }
 

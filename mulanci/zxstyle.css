@@ -3,17 +3,16 @@
 }
 
 .wrapper{
+	width:1400px;
 	height: 1000px;
-	width:475px;
+	margin: 0 auto;
 	background-color:#6D2525;
-margin: 0 auto;
 }
 
 
 
 body{
-	background:#6D2525;
-		width:10%;
+	background:black;
 }
 
 img{
@@ -30,7 +29,6 @@ img{
     width: 300px;
     color: white;
     text-align: left;
-    position: absolute;
     z-index: 1;
     top: 820px;
     left: 60%;
@@ -43,10 +41,9 @@ img{
 
 /*chinese position*/
 .tooltip {
-  position: relative;
   color:#E2B68E;
-  top:10px;
-  left:330px;
+  margin-top:10px;
+  margin-left:400px;
   font-size:26px
 }
 .tooltip:before,
@@ -54,7 +51,6 @@ img{
   display: block;
   opacity: 0;
   pointer-events: none;
-  position: absolute;
 }
 /*english position*/
 .tooltip:before {
@@ -62,8 +58,8 @@ img{
   color:white;
   content: attr(data-title);
   font-size: 26px;
-    top:-80px;
-    left:-210px;
+    margin-top:-80px;
+    margin-left:-800px;
   white-space: pre-line;
   text-align: center
 }
@@ -78,16 +74,20 @@ img{
 .tooltip.fade:hover:before {
   opacity: 1;
   transform: translate3d(0,0,0);
+    transition: all 4s ease-in;
+  transition: all 8s ease-out;
 }
 
 #jiji{
-  opacity:1.0;
+  opacity:0.3;
   filter: alpha(opacity=50); 
   cursor: help;
+      transition: all 4s ease-in;
+  transition: all 8s ease-out;
 }
 
 #jiji:hover{
-  opacity:0.2;
+  opacity:1.0;
   filter: alpha(opacity=100);
   cursor: help;
 }
@@ -100,7 +100,6 @@ img{
     width: 300px;
     color: white;
     text-align: left;
-    position: absolute;
     z-index: 1;
     top: 820px;
     left: 60%;
@@ -113,10 +112,9 @@ img{
 
 /*chinese position*/
 .tooltip0 {
-  position: relative;
   color:#E2B68E;
-  top:10px;
-  left:330px;
+  margin-top:-80px;
+  margin-left:330px;
   font-size:26px
 }
 .tooltip0:before,
@@ -124,7 +122,6 @@ img{
   display: block;
   opacity: 0;
   pointer-events: none;
-  position: absolute;
 }
 /*english position*/
 .tooltip0:before {
@@ -132,8 +129,8 @@ img{
   color:white;
   content: attr(data-title);
   font-size: 26px;
-    top:90px;
-    left:0px;
+    margin-top:90px;
+    margin-left:0px;
   white-space: pre-line;
   text-align: left
 }
@@ -146,18 +143,20 @@ img{
 }
 .tooltip0.fade:hover:after,
 .tooltip0.fade:hover:before {
-  opacity: 1;
   transform: translate3d(0,0,0);
+  opacity:1.0;
 }
 
 #buwen{
-  opacity:1.0;
+  opacity:0.3;
   filter: alpha(opacity=50); 
   cursor: help;
+  transition: all 4s ease-in;
+  transition: all 8s ease-out;
 }
 
 #buwen:hover{
-  opacity:0.2;
+  opacity:1.0;
   filter: alpha(opacity=100);
   cursor: help;
 }
@@ -170,7 +169,6 @@ img{
     width: 300px;
     color: white;
     text-align: left;
-    position: absolute;
     z-index: 1;
     top: 820px;
     left: 60%;
@@ -183,10 +181,9 @@ img{
 
 /*chinese position*/
 .tooltip1 {
-  position: relative;
   color:#E2B68E;
-  top:-300px;
-  left:800px;
+  margin-top:-360px;
+  margin-left:800px;
   font-size:26px
 }
 .tooltip1:before,
@@ -194,7 +191,6 @@ img{
   display: block;
   opacity: 0;
   pointer-events: none;
-  position: absolute;
 }
 /*english position*/
 .tooltip1:before {
@@ -202,8 +198,8 @@ img{
   color:white;
   content: attr(data-title);
   font-size: 26px;
-    top:15px;
-    left:150px;
+    margin-top:15px;
+    margin-left:150px;
   white-space: pre-line;
   text-align: left
 }
@@ -221,13 +217,15 @@ img{
 }
 
 #wennv{
-  opacity:1.0;
+  opacity:0.3;
   filter: alpha(opacity=50); 
   cursor: help;
+    transition: all 4s ease-in;
+  transition: all 8s ease-out;
 }
 
 #wennv:hover{
-  opacity:0.2;
+  opacity:1.0;
   filter: alpha(opacity=100);
   cursor: help;
 }
@@ -240,7 +238,6 @@ img{
     width: 300px;
     color: white;
     text-align: left;
-    position: absolute;
     z-index: 1;
     top: 820px;
     left: 60%;
@@ -253,10 +250,9 @@ img{
 
 /*chinese position*/
 .tooltip2 {
-  position: relative;
   color:#E2B68E;
-  top:-150px;
-  left:800px;
+  margin-top:-50px;
+  margin-left:800px;
   font-size:26px
 }
 .tooltip2:before,
@@ -264,7 +260,6 @@ img{
   display: block;
   opacity: 0;
   pointer-events: none;
-  position: absolute;
 }
 /*english position*/
 .tooltip2:before {
@@ -272,8 +267,8 @@ img{
   color:white;
   content: attr(data-title);
   font-size: 26px;
-    top:90px;
-    left:0px;
+    margin-top:90px;
+    margin-left:0px;
   white-space: pre-line;
   text-align: left
 }
@@ -291,13 +286,15 @@ img{
 }
 
 #nvyi{
-  opacity:1.0;
+  opacity:0.3;
+    transition: all 4s ease-in;
+  transition: all 8s ease-out;
   filter: alpha(opacity=50); 
   cursor: help;
 }
 
 #nvyi:hover{
-  opacity:0.2;
+  opacity:1.0;
   filter: alpha(opacity=100);
   cursor: help;
 }
@@ -310,7 +307,6 @@ img{
     width: 300px;
     color: white;
     text-align: left;
-    position: absolute;
     z-index: 1;
     top: 820px;
     left: 60%;
@@ -323,10 +319,9 @@ img{
 
 /*chinese position*/
 .tooltip3 {
-  position: relative;
   color:#E2B68E;
-  top:-80px;
-  left:100px;
+  margin-top:-80px;
+  margin-left:1000px;
   font-size:26px
 }
 .tooltip3:before,
@@ -334,7 +329,6 @@ img{
   display: block;
   opacity: 0;
   pointer-events: none;
-  position: absolute;
 }
 /*english position*/
 .tooltip3:before {
@@ -342,8 +336,8 @@ img{
   color:white;
   content: attr(data-title);
   font-size: 26px;
-    top:90px;
-    left:0px;
+    margin-top:90px;
+    margin-left:0px;
   white-space: pre-line;
   text-align: left
 }
@@ -361,13 +355,15 @@ img{
 }
 
 #zuoye{
-  opacity:1.0;
+	  transition: all 4s ease-in;
+  transition: all 8s ease-out;
+  opacity:0.3;
   filter: alpha(opacity=50); 
   cursor: help;
 }
 
 #zuoye:hover{
-  opacity:0.2;
+  opacity:1.0;
   filter: alpha(opacity=100);
   cursor: help;
 }
@@ -379,7 +375,6 @@ img{
     width: 300px;
     color: white;
     text-align: left;
-    position: absolute;
     z-index: 1;
     top: 820px;
     left: 60%;
@@ -392,10 +387,9 @@ img{
 
 /*chinese position*/
 .tooltip4 {
-  position: relative;
   color:#E2B68E;
-  top:30px;
-  left:150px;
+  margin-top:30px;
+  margin-left:900px;
   font-size:26px
 }
 .tooltip4:before,
@@ -403,7 +397,6 @@ img{
   display: block;
   opacity: 0;
   pointer-events: none;
-  position: absolute;
 }
 /*english position*/
 .tooltip4:before {
@@ -411,8 +404,8 @@ img{
   color:white;
   content: attr(data-title);
   font-size: 26px;
-    top:90px;
-    left:0px;
+    margin-top:90px;
+    margin-left:0px;
   white-space: pre-line;
   text-align: left
 }
@@ -430,13 +423,15 @@ img{
 }
 
 #junshu{
-  opacity:1.0;
+  opacity:0.3;
+    transition: all 4s ease-in;
+  transition: all 8s ease-out;
   filter: alpha(opacity=50); 
   cursor: help;
 }
 
 #junshu:hover{
-  opacity:0.2;
+  opacity:1.0;
   filter: alpha(opacity=100);
   cursor: help;
 }
@@ -449,7 +444,6 @@ img{
     width: 300px;
     color: white;
     text-align: left;
-    position: absolute;
     z-index: 1;
     top: 820px;
     left: 60%;
@@ -462,10 +456,9 @@ img{
 
 /*chinese position*/
 .tooltip5 {
-  position: relative;
   color:#E2B68E;
-  top:170px;
-  left:150px;
+  margin-top:100px;
+  margin-left:700px;
   font-size:26px
 }
 .tooltip5:before,
@@ -481,8 +474,8 @@ img{
   color:white;
   content: attr(data-title);
   font-size: 26px;
-    top:15px;
-    left:160px;
+    margin-top:15px;
+    margin-left:160px;
   white-space: pre-line;
   text-align: left
 }
@@ -500,13 +493,15 @@ img{
 }
 
 #aye{
-  opacity:1.0;
+  opacity:0.2;
+    transition: all 4s ease-in;
+  transition: all 8s ease-out;
   filter: alpha(opacity=50); 
   cursor: help;
 }
 
 #aye:hover{
-  opacity:0.2;
+  opacity:1.0;
   filter: alpha(opacity=100);
   cursor: help;
 }
@@ -519,7 +514,6 @@ img{
     width: 300px;
     color: white;
     text-align: left;
-    position: absolute;
     z-index: 1;
     top: 820px;
     left: 60%;
@@ -532,10 +526,9 @@ img{
 
 /*chinese position*/
 .tooltip6 {
-  position: relative;
   color:#E2B68E;
-  top:-80px;
-  left:580px;
+  margin-top:-400px;
+  margin-left:400px;
   font-size:48px
 }
 .tooltip6:before,
@@ -543,7 +536,6 @@ img{
   display: block;
   opacity: 0;
   pointer-events: none;
-  position: absolute;
 }
 /*english position*/
 .tooltip6:before {
@@ -551,8 +543,8 @@ img{
   color:white;
   content: attr(data-title);
   font-size: 36px;
-    top:140px;
-    left:160px;
+    margin-top:140px;
+    margin-left:-200px;
   white-space: pre-line;
   text-align: left
 }
@@ -570,13 +562,15 @@ img{
 }
 
 #yw{
-  opacity:1.0;
+  opacity:0.3;
   filter: alpha(opacity=50); 
   cursor: help;
+    transition: all 4s ease-in;
+  transition: all 8s ease-out;
 }
 
 #yw:hover{
-  opacity:0.2;
+  opacity:1.0;
   filter: alpha(opacity=100);
   cursor: help;
 }

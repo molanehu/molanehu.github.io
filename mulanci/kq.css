@@ -5,13 +5,13 @@
 .wrapper{
 	width:1400px;
 	height: 1000px;
-	background-color:#6D2525;
+	background-color:#472C49;
 margin: 0 auto;
 padding:0;
 }
 
 body{
-	background:#6D2525;
+	background:black;
 }
 
 img{
@@ -21,7 +21,7 @@ img{
 	left:450px;
 }
 
-/*jijifujiji*/
+/*/*danci*/
 .tooltip .tooltiptext {
     visibility: hidden;
     cursor:help;
@@ -41,11 +41,10 @@ img{
 
 /*chinese position*/
 .tooltip {
-  position: relative;
   color:#E2B68E;
-  top:10px;
-  left:330px;
-  font-size:26px
+  margin-top:-100px;
+  margin-left:200px;
+  font-size:46px
 }
 .tooltip:before,
 .tooltip:after {
@@ -59,11 +58,11 @@ img{
   border-radius: 2px;
   color:white;
   content: attr(data-title);
-  font-size: 26px;
-    top:-80px;
-    left:-210px;
+  font-size: 28px;
+    top:100px;
+    left:380px;
   white-space: pre-line;
-  text-align: center
+  text-align: left
 }
 
 .tooltip.fade:after,
@@ -78,20 +77,21 @@ img{
   transform: translate3d(0,0,0);
 }
 
-#jiji{
+#dc{
   opacity:1.0;
   filter: alpha(opacity=50); 
   cursor: help;
 }
 
-#jiji:hover{
+#dc:hover{
   opacity:0.2;
   filter: alpha(opacity=100);
   cursor: help;
 }
 
 
-/*buwenjizhusheng*/
+
+/*musu*/
 .tooltip0 .tooltiptext {
     visibility: hidden;
     cursor:help;
@@ -111,11 +111,10 @@ img{
 
 /*chinese position*/
 .tooltip0 {
-  position: relative;
   color:#E2B68E;
-  top:10px;
-  left:330px;
-  font-size:26px
+  margin-top:10px;
+margin-left:200px;
+  font-size:24px
 }
 .tooltip0:before,
 .tooltip0:after {
@@ -129,9 +128,9 @@ img{
   border-radius: 2px;
   color:white;
   content: attr(data-title);
-  font-size: 26px;
-    top:90px;
-    left:0px;
+  font-size: 24px;
+    top:210px;
+    left:420px;
   white-space: pre-line;
   text-align: left
 }
@@ -148,20 +147,19 @@ img{
   transform: translate3d(0,0,0);
 }
 
-#buwen{
+#musu{
   opacity:1.0;
   filter: alpha(opacity=50); 
   cursor: help;
 }
 
-#buwen:hover{
+#musu:hover{
   opacity:0.2;
   filter: alpha(opacity=100);
   cursor: help;
 }
 
-
-/*wennv*/
+/*ming*/
 .tooltip1 .tooltiptext {
     visibility: hidden;
     cursor:help;
@@ -181,11 +179,10 @@ img{
 
 /*chinese position*/
 .tooltip1 {
-  position: relative;
   color:#E2B68E;
-  top:-300px;
-  left:800px;
-  font-size:26px
+  margin-top:50px;
+  margin-left:200px;
+  font-size:24px
 }
 .tooltip1:before,
 .tooltip1:after {
@@ -199,9 +196,9 @@ img{
   border-radius: 2px;
   color:white;
   content: attr(data-title);
-  font-size: 26px;
-    top:15px;
-    left:150px;
+  font-size: 24px;
+    top:400px;
+    left:80px;
   white-space: pre-line;
   text-align: left
 }
@@ -218,20 +215,20 @@ img{
   transform: translate3d(0,0,0);
 }
 
-#wennv{
+#ming{
   opacity:1.0;
   filter: alpha(opacity=50); 
   cursor: help;
 }
 
-#wennv:hover{
+#ming:hover{
   opacity:0.2;
   filter: alpha(opacity=100);
   cursor: help;
 }
 
 
-/*nvyi*/
+/*xi*/
 .tooltip2 .tooltiptext {
     visibility: hidden;
     cursor:help;
@@ -251,11 +248,10 @@ img{
 
 /*chinese position*/
 .tooltip2 {
-  position: relative;
   color:#E2B68E;
-  top:-150px;
-  left:800px;
-  font-size:26px
+  margin-top:130px;
+  margin-left:200px;
+  font-size:24px
 }
 .tooltip2:before,
 .tooltip2:after {
@@ -269,9 +265,9 @@ img{
   border-radius: 2px;
   color:white;
   content: attr(data-title);
-  font-size: 26px;
-    top:90px;
-    left:0px;
+  font-size: 24px;
+    top:550px;
+    left:110px;
   white-space: pre-line;
   text-align: left
 }
@@ -288,20 +284,20 @@ img{
   transform: translate3d(0,0,0);
 }
 
-#nvyi{
+#xi{
   opacity:1.0;
   filter: alpha(opacity=50); 
   cursor: help;
 }
 
-#nvyi:hover{
+#xi:hover{
   opacity:0.2;
   filter: alpha(opacity=100);
   cursor: help;
 }
 
 
-/*zuoye*/
+
 .tooltip3 .tooltiptext {
     visibility: hidden;
     cursor:help;
@@ -321,11 +317,10 @@ img{
 
 /*chinese position*/
 .tooltip3 {
-  position: relative;
   color:#E2B68E;
-  top:-80px;
-  left:100px;
-  font-size:26px
+  margin-top:100px;
+  margin-left:630px;
+  font-size:24px
 }
 .tooltip3:before,
 .tooltip3:after {
@@ -339,9 +334,9 @@ img{
   border-radius: 2px;
   color:white;
   content: attr(data-title);
-  font-size: 26px;
-    top:90px;
-    left:0px;
+  font-size: 24px;
+    top:680px;
+    left:580px;
   white-space: pre-line;
   text-align: left
 }
@@ -358,19 +353,20 @@ img{
   transform: translate3d(0,0,0);
 }
 
-#zuoye{
+#nan{
   opacity:1.0;
   filter: alpha(opacity=50); 
   cursor: help;
 }
 
-#zuoye:hover{
+#nan:hover{
   opacity:0.2;
   filter: alpha(opacity=100);
   cursor: help;
 }
 
-/*junshu*/
+
+/*bei*/
 .tooltip4 .tooltiptext {
     visibility: hidden;
     cursor:help;
@@ -390,11 +386,10 @@ img{
 
 /*chinese position*/
 .tooltip4 {
-  position: relative;
   color:#E2B68E;
-  top:30px;
-  left:150px;
-  font-size:26px
+  margin-top:-330px;
+  margin-left:630px;
+  font-size:24px
 }
 .tooltip4:before,
 .tooltip4:after {
@@ -408,9 +403,9 @@ img{
   border-radius: 2px;
   color:white;
   content: attr(data-title);
-  font-size: 26px;
-    top:90px;
-    left:0px;
+  font-size: 24px;
+    top:380px;
+    left:560px;
   white-space: pre-line;
   text-align: left
 }
@@ -427,20 +422,22 @@ img{
   transform: translate3d(0,0,0);
 }
 
-#junshu{
+#bei{
   opacity:1.0;
   filter: alpha(opacity=50); 
   cursor: help;
 }
 
-#junshu:hover{
+#bei:hover{
   opacity:0.2;
   filter: alpha(opacity=100);
   cursor: help;
 }
 
 
-/*aye*/
+
+
+/*dong*/
 .tooltip5 .tooltiptext {
     visibility: hidden;
     cursor:help;
@@ -460,11 +457,10 @@ img{
 
 /*chinese position*/
 .tooltip5 {
-  position: relative;
   color:#E2B68E;
-  top:170px;
-  left:150px;
-  font-size:26px
+  margin-top:130px;
+  margin-left:1070px;
+  font-size:24px
 }
 .tooltip5:before,
 .tooltip5:after {
@@ -478,9 +474,9 @@ img{
   border-radius: 2px;
   color:white;
   content: attr(data-title);
-  font-size: 26px;
-    top:15px;
-    left:160px;
+  font-size: 24px;
+    top:550px;
+    left:1020px;
   white-space: pre-line;
   text-align: left
 }
@@ -497,201 +493,17 @@ img{
   transform: translate3d(0,0,0);
 }
 
-#aye{
+#dong{
   opacity:1.0;
   filter: alpha(opacity=50); 
   cursor: help;
 }
 
-#aye:hover{
+#dong:hover{
   opacity:0.2;
   filter: alpha(opacity=100);
   cursor: help;
 }
-
-
-/*yw*/
-.tooltip6 .tooltiptext {
-    visibility: hidden;
-    cursor:help;
-    width: 300px;
-    color: white;
-    text-align: left;
-    position: absolute;
-    z-index: 1;
-    top: 820px;
-    left: 60%;
-    margin: 0 auto
-}
-
-.tooltip6:hover .tooltiptext {
-    visibility: visible;
-}
-
-/*chinese position*/
-.tooltip6 {
-  position: relative;
-  color:#E2B68E;
-  top:-80px;
-  left:580px;
-  font-size:48px
-}
-.tooltip6:before,
-.tooltip6:after {
-  display: block;
-  opacity: 0;
-  pointer-events: none;
-  position: absolute;
-}
-/*english position*/
-.tooltip6:before {
-  border-radius: 2px;
-  color:white;
-  content: attr(data-title);
-  font-size: 36px;
-    top:140px;
-    left:160px;
-  white-space: pre-line;
-  text-align: left
-}
-
-.tooltip6.fade:after,
-.tooltip6.fade:before {
-  transform: translate3d(0,-10px,0);
-  transition: all 4s ease-in;
-  transition: all 8s ease-out;
-}
-.tooltip6.fade:hover:after,
-.tooltip6.fade:hover:before {
-  opacity: 1;
-  transform: translate3d(0,0,0);
-}
-
-#yw{
-  opacity:1.0;
-  filter: alpha(opacity=50); 
-  cursor: help;
-}
-
-#yw:hover{
-  opacity:0.2;
-  filter: alpha(opacity=100);
-  cursor: help;
-}
-
-
-.button{
-	margin-top:-590px;
-}
-
-
-#buttona{
-  width:40px;
-  height:40px;
-  background: #6D2525;
-  -moz-border-radius: 20px;
-  -webkit-border-radius: 20px;
-  border-radius: 20px;
-  opacity:1.0;
-  position: relative;
-
-}
-
-#buttona:hover {
-    opacity: 0.2;
-    filter: alpha(opacity=100); 
-}
-
-
-
-#buttonb{
-  width:40px;
-  height:40px;
-  background: #472C49;
-  -moz-border-radius: 20px;
-  -webkit-border-radius: 20px;
-  border-radius: 20px;
-  opacity:1.0;
-  position: relative;
-
-}
-#buttonb:hover {
-    opacity: 0.2;
-    filter: alpha(opacity=100); 
-}
-
-#buttond{
-  width:40px;
-  height:40px;
-  background: #14481A;
-  -moz-border-radius: 20px;
-  -webkit-border-radius: 20px;
-  border-radius: 20px;
-  position: relative;
-  opacity:1.0;
-
-}
-#buttond:hover {
-    opacity: 0.2;
-    filter: alpha(opacity=100); 
-}
-
-
-
-#buttone{
-  width:40px;
-  height:40px;
-  background: #815A37;
-  -moz-border-radius: 20px;
-  -webkit-border-radius: 20px;
-  border-radius: 20px;
-  position: relative;
-  opacity: 1.0;
-
-}
-#buttone:hover {
-    opacity: 0.2;
-    filter: alpha(opacity=100); 
-}
-
-
-
-#buttonf{
-  width:40px;
-  height:40px;
-  background: black;
-  -moz-border-radius: 20px;
-  -webkit-border-radius: 20px;
-  border-radius: 20px;
-  position: relative;
-  opacity: 1.0;
-
-}
-#buttonf:hover {
-    opacity: 0.2;
-    filter: alpha(opacity=100); 
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

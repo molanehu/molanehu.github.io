@@ -236,7 +236,7 @@ img{
 }
 
 
-#buttona{
+#buttonb{
   width:40px;
   height:40px;
   background: #6D2525;
@@ -245,18 +245,17 @@ img{
   border-radius: 20px;
   opacity:1.0;
   position: relative;
-top:700px;
-left:500px;
+
 }
 
-#buttona:hover {
+#buttonb:hover {
     opacity: 0.2;
     filter: alpha(opacity=100); 
 }
 
 
 
-#buttonb{
+#buttonc{
   width:40px;
   height:40px;
   background: #472C49;
@@ -265,10 +264,9 @@ left:500px;
   border-radius: 20px;
   opacity:1.0;
   position: relative;
-  top:660px;
-  left:590px;
+
 }
-#buttonb:hover {
+#buttonc:hover {
     opacity: 0.2;
     filter: alpha(opacity=100); 
 }
@@ -282,8 +280,7 @@ left:500px;
   border-radius: 20px;
   position: relative;
   opacity:1.0;
-  top:620px;
-  left:680px;
+
 }
 #buttond:hover {
     opacity: 0.2;
@@ -301,8 +298,8 @@ left:500px;
   border-radius: 20px;
   position: relative;
   opacity: 1.0;
-  top:580px;
-  left:770px;
+
+
 }
 #buttone:hover {
     opacity: 0.2;
@@ -320,8 +317,9 @@ left:500px;
   border-radius: 20px;
   position: relative;
   opacity: 1.0;
-    top:540px;
-  left:860px;
+  position:relative;
+
+
 }
 #buttonf:hover {
     opacity: 0.2;

@@ -3,15 +3,15 @@
 }
 
 .wrapper{
-	width:1400px;
-	height: 1000px;
-	background-color:#2D2C5C;
+  height: 1000px;
+  width:475px;
+  background-color:#472C49;
 margin: 0 auto;
-padding:0;
 }
 
 body{
 	background:#2D2C5C;
+  width:10%;
 }
 
 img{

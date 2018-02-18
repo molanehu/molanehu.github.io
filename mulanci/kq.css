@@ -67,8 +67,7 @@ img{
 .tooltip.fade:after,
 .tooltip.fade:before {
   transform: translate3d(0,-10px,0);
-  transition: all 3s ease-in;
-  transition: all 9s ease-out;
+  transition: all 6s ease;
 }
 .tooltip.fade:hover:after,
 .tooltip.fade:hover:before {
@@ -80,14 +79,13 @@ img{
   opacity:0.3;
   filter: alpha(opacity=50); 
   cursor: help;
-}
+  transition: all 6s ease;}
 
 #dc:hover{
   opacity:1.0;
   filter: alpha(opacity=100);
   cursor: help;
-  transition: all 3s ease-in;
-  transition: all 9s ease-out;
+ 
 }
 
 
@@ -138,8 +136,7 @@ img{
 .tooltip0.fade:after,
 .tooltip0.fade:before {
   transform: translate3d(0,-10px,0);
-  transition: all 3s ease-in;
-  transition: all 9s ease-out;
+  transition: all 6s ease;
 }
 .tooltip0.fade:hover:after,
 .tooltip0.fade:hover:before {
@@ -151,14 +148,13 @@ img{
   opacity:0.3;
   filter: alpha(opacity=50); 
   cursor: help;
+    transition: all 6s ease;
 }
 
 #musu:hover{
   opacity:1.0;
   filter: alpha(opacity=100);
   cursor: help;
-  transition: all 3s ease-in;
-  transition: all 9s ease-out;
 }
 
 
@@ -209,8 +205,7 @@ img{
 .tooltip1.fade:after,
 .tooltip1.fade:before {
   transform: translate3d(0,-10px,0);
-  transition: all 3s ease-in;
-  transition: all 9s ease-out;
+  transition: all 6s ease;
 }
 .tooltip1.fade:hover:after,
 .tooltip1.fade:hover:before {
@@ -222,14 +217,14 @@ img{
   opacity:0.3;
   filter: alpha(opacity=50); 
   cursor: help;
+    transition: all 6s ease;
 }
 
 #ming:hover{
   opacity:1.0;
   filter: alpha(opacity=100);
   cursor: help;
-  transition: all 3s ease-in;
-  transition: all 9s ease-out;
+
 }
 
 
@@ -280,8 +275,7 @@ img{
 .tooltip2.fade:after,
 .tooltip2.fade:before {
   transform: translate3d(0,-10px,0);
-  transition: all 3s ease-in;
-  transition: all 9s ease-out;
+transition: all 6s ease;
 }
 .tooltip2.fade:hover:after,
 .tooltip2.fade:hover:before {
@@ -293,14 +287,14 @@ img{
   opacity:0.3;
   filter: alpha(opacity=50); 
   cursor: help;
+  transition: all 6s ease;
 }
 
 #xi:hover{
   opacity:1.0;
   filter: alpha(opacity=100);
   cursor: help;
-  transition: all 3s ease-in;
-  transition: all 9s ease-out;
+  
 }
 
 
@@ -353,8 +347,7 @@ img{
 .tooltip3.fade:after,
 .tooltip3.fade:before {
   transform: translate3d(0,-10px,0);
-  transition: all 3s ease-in;
-  transition: all 9s ease-out;
+transition: all 6s ease;
 }
 .tooltip3.fade:hover:after,
 .tooltip3.fade:hover:before {
@@ -366,14 +359,14 @@ img{
   opacity:0.3;
   filter: alpha(opacity=50); 
   cursor: help;
+  transition: all 6s ease;
 }
 
 #nan:hover{
   opacity:1.0;
   filter: alpha(opacity=100);
   cursor: help;
-  transition: all 3s ease-in;
-  transition: all 9s ease-out;
+
 }
 
 
@@ -425,8 +418,7 @@ img{
 .tooltip4.fade:after,
 .tooltip4.fade:before {
   transform: translate3d(0,-10px,0);
-  transition: all 3s ease-in;
-  transition: all 9s ease-out;
+transition: all 6s ease;
 }
 .tooltip4.fade:hover:after,
 .tooltip4.fade:hover:before {
@@ -438,14 +430,13 @@ img{
   opacity:0.3;
   filter: alpha(opacity=50); 
   cursor: help;
+  transition: all 6s ease;
 }
 
 #bei:hover{
   opacity:1.0;
   filter: alpha(opacity=100);
   cursor: help;
-  transition: all 3s ease-in;
-  transition: all 9s ease-out;
 }
 
 
@@ -497,8 +488,7 @@ img{
 .tooltip5.fade:after,
 .tooltip5.fade:before {
   transform: translate3d(0,-10px,0);
-  transition: all 3s ease-in;
-  transition: all 9s ease-out;
+transition: all 6s ease;
 }
 .tooltip5.fade:hover:after,
 .tooltip5.fade:hover:before {
@@ -510,14 +500,13 @@ img{
   opacity:0.3;
   filter: alpha(opacity=50); 
   cursor: help;
+  transition: all 6s ease;
 }
 
 #dong:hover{
   opacity:1.0;
   filter: alpha(opacity=100);
   cursor: help;
-  transition: all 3s ease-in;
-  transition: all 9s ease-out;
 }
 
 
@@ -568,8 +557,7 @@ img{
 .tooltip6.fade:after,
 .tooltip6.fade:before {
   transform: translate3d(0,-10px,0);
-  transition: all 3s ease-in;
-  transition: all 9s ease-out;
+transition: all 6s ease;
 }
 .tooltip6.fade:hover:after,
 .tooltip6.fade:hover:before {
@@ -581,14 +569,14 @@ img{
   opacity:0.3;
   filter: alpha(opacity=50); 
   cursor: help;
+  transition: all 6s ease;
 }
 
 #hh:hover{
   opacity:1.0;
   filter: alpha(opacity=100);
   cursor: help;
-  transition: all 3s ease-in;
-  transition: all 9s ease-out;
+
 }
 
 
@@ -639,8 +627,7 @@ img{
 .tooltip7.fade:after,
 .tooltip7.fade:before {
   transform: translate3d(0,-10px,0);
-  transition: all 3s ease-in;
-  transition: all 9s ease-out;
+transition: all 6s ease;
 }
 .tooltip7.fade:hover:after,
 .tooltip7.fade:hover:before {
@@ -652,14 +639,14 @@ img{
   opacity:0.3;
   filter: alpha(opacity=50); 
   cursor: help;
+  transition: all 6s ease;
 }
 
 #mu:hover{
   opacity:1.0;
   filter: alpha(opacity=100);
   cursor: help;
-  transition: all 3s ease-in;
-  transition: all 9s ease-out;
+
 }
 
 
@@ -711,8 +698,7 @@ img{
 .tooltip8.fade:after,
 .tooltip8.fade:before {
   transform: translate3d(0,-10px,0);
-  transition: all 3s ease-in;
-  transition: all 9s ease-out;
+transition: all 6s ease;
 }
 .tooltip8.fade:hover:after,
 .tooltip8.fade:hover:before {
@@ -724,14 +710,13 @@ img{
   opacity:0.3;
   filter: alpha(opacity=50); 
   cursor: help;
+  transition: all 6s ease;
 }
 
 #jiu:hover{
   opacity:1.0;
   filter: alpha(opacity=100);
   cursor: help;
-  transition: all 3s ease-in;
-  transition: all 9s ease-out;
 }
 
 

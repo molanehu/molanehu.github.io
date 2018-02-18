@@ -3,15 +3,15 @@
 }
 
 .wrapper{
-	width:1400px;
 	height: 1000px;
+	width:550px;
 	background-color:#472C49;
 margin: 0 auto;
-padding:0;
 }
 
 body{
-	background:black;
+	background:#472C49;
+	width:10%;
 }
 
 img{
@@ -41,11 +41,17 @@ img{
 
 /*chinese position*/
 .tooltip {
+  position: relative;
+}
+
+.tooltip{
   color:#E2B68E;
-  margin-top:-100px;
-  margin-left:200px;
+  top:-100px;
+  left:200px;
   font-size:46px
 }
+
+
 .tooltip:before,
 .tooltip:after {
   display: block;
@@ -59,8 +65,8 @@ img{
   color:white;
   content: attr(data-title);
   font-size: 28px;
-    top:100px;
-    left:380px;
+    top:15px;
+    left:160px;
   white-space: pre-line;
   text-align: left
 }
@@ -111,9 +117,10 @@ img{
 
 /*chinese position*/
 .tooltip0 {
+  position: relative;
   color:#E2B68E;
-  margin-top:10px;
-margin-left:200px;
+  top:-90px;
+  left:200px;
   font-size:24px
 }
 .tooltip0:before,
@@ -129,8 +136,8 @@ margin-left:200px;
   color:white;
   content: attr(data-title);
   font-size: 24px;
-    top:210px;
-    left:420px;
+    top:-20px;
+    left:190px;
   white-space: pre-line;
   text-align: left
 }
@@ -179,9 +186,10 @@ margin-left:200px;
 
 /*chinese position*/
 .tooltip1 {
+  position: relative;
   color:#E2B68E;
-  margin-top:50px;
-  margin-left:200px;
+  top:-60px;
+  left:200px;
   font-size:24px
 }
 .tooltip1:before,
@@ -197,8 +205,8 @@ margin-left:200px;
   color:white;
   content: attr(data-title);
   font-size: 24px;
-    top:400px;
-    left:80px;
+    top:50px;
+    left:-120px;
   white-space: pre-line;
   text-align: left
 }
@@ -248,9 +256,10 @@ margin-left:200px;
 
 /*chinese position*/
 .tooltip2 {
+  position: relative;
   color:#E2B68E;
-  margin-top:130px;
-  margin-left:200px;
+  top:60px;
+  left:200px;
   font-size:24px
 }
 .tooltip2:before,
@@ -266,8 +275,8 @@ margin-left:200px;
   color:white;
   content: attr(data-title);
   font-size: 24px;
-    top:550px;
-    left:110px;
+    top:50px;
+    left:-120px;
   white-space: pre-line;
   text-align: left
 }
@@ -297,7 +306,7 @@ margin-left:200px;
 }
 
 
-
+/*bei*/
 .tooltip3 .tooltiptext {
     visibility: hidden;
     cursor:help;
@@ -317,9 +326,10 @@ margin-left:200px;
 
 /*chinese position*/
 .tooltip3 {
+  position: relative;
   color:#E2B68E;
-  margin-top:100px;
-  margin-left:630px;
+  top:150px;
+  left:630px;
   font-size:24px
 }
 .tooltip3:before,
@@ -335,8 +345,8 @@ margin-left:200px;
   color:white;
   content: attr(data-title);
   font-size: 24px;
-    top:680px;
-    left:580px;
+    top:50px;
+    left:-120px;
   white-space: pre-line;
   text-align: left
 }
@@ -366,7 +376,7 @@ margin-left:200px;
 }
 
 
-/*bei*/
+/*nan*/
 .tooltip4 .tooltiptext {
     visibility: hidden;
     cursor:help;
@@ -386,9 +396,10 @@ margin-left:200px;
 
 /*chinese position*/
 .tooltip4 {
+  position: relative;
   color:#E2B68E;
-  margin-top:-330px;
-  margin-left:630px;
+  top:-170px;
+  left:630px;
   font-size:24px
 }
 .tooltip4:before,
@@ -404,8 +415,8 @@ margin-left:200px;
   color:white;
   content: attr(data-title);
   font-size: 24px;
-    top:380px;
-    left:560px;
+    top:50px;
+    left:-120px;
   white-space: pre-line;
   text-align: left
 }
@@ -457,9 +468,10 @@ margin-left:200px;
 
 /*chinese position*/
 .tooltip5 {
+  position: relative;
   color:#E2B68E;
-  margin-top:130px;
-  margin-left:1070px;
+  top:-40px;
+  left:1070px;
   font-size:24px
 }
 .tooltip5:before,
@@ -475,8 +487,8 @@ margin-left:200px;
   color:white;
   content: attr(data-title);
   font-size: 24px;
-    top:550px;
-    left:1020px;
+    top:50px;
+    left:-120px;
   white-space: pre-line;
   text-align: left
 }
@@ -507,3 +519,10 @@ margin-left:200px;
 
 
 
+
+
+
+
+
+
+*/

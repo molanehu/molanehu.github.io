@@ -580,13 +580,9 @@ img{
 
 
 
-/*button*/
-.button{
-  margin-top:-120px;
-}
+/*red*/
 
-
-#buttonb{
+#buttona{
   width:40px;
   height:40px;
   background: #6D2525;
@@ -594,30 +590,125 @@ img{
   -webkit-border-radius: 20px;
   border-radius: 20px;
   opacity:1.0;
+  position: absolute;
+  top:200px;
+  left:100px;
 
 }
-
-#buttonb:hover {
-    opacity: 0.2;
-    filter: alpha(opacity=100); 
+#buttona:hover {
+    background:#815A37;
 }
 
 
+#buttona #zhong{
+      visibility: hidden;
+    width: 120px;
+    background-color: black;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: 5px;
+    left: 105%;
+    opacity:1;
+}
 
-#buttonc{
+#buttona:hover #zhong {
+    visibility: visible;
+    opacity:1;
+}
+
+
+/*purple*/
+
+#buttonb{
   width:40px;
   height:40px;
-  background: #472C49;
+  background: #724876;
   -moz-border-radius: 20px;
   -webkit-border-radius: 20px;
   border-radius: 20px;
   opacity:1.0;
+  position: absolute;
+  top:300px;
+  left:100px;
+
+}
+#buttonb:hover {
+    background:#815A37;
+}
+
+
+#buttonb #rose{
+      visibility: hidden;
+    width: 120px;
+    background-color: black;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: 5px;
+    left: 105%;
+    opacity:1;
+}
+
+#buttonb:hover #rose {
+    visibility: visible;
+    opacity:1;
+}
+
+
+
+
+/*blue*/
+
+#buttonc{
+  width:40px;
+  height:40px;
+  background: #2D2C5C;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  border-radius: 20px;
+  opacity:1.0;
+  position: absolute;
+  top:400px;
+  left:100px;
 
 }
 #buttonc:hover {
-    opacity: 0.2;
-    filter: alpha(opacity=100); 
+background:#815A37;
 }
+
+
+#buttonc #heroine{
+	    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: 5px;
+    left: 105%;
+    opacity:1;
+}
+
+#buttonc:hover #heroine {
+    visibility: visible;
+    opacity:1;
+}
+
+
+/*green*/
 
 #buttond{
   width:40px;
@@ -626,31 +717,39 @@ img{
   -moz-border-radius: 20px;
   -webkit-border-radius: 20px;
   border-radius: 20px;
+  position: relative;
   opacity:1.0;
+ position: absolute;
+  top:500px;
+  left:100px;
 
 }
 #buttond:hover {
-    opacity: 0.2;
-    filter: alpha(opacity=100); 
+background:#815A37;
+}
+
+#buttond #live{
+	    visibility: hidden;
+    width: 210px;
+    background-color: black;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: 5px;
+    left: 105%;
+    opacity:1;
+}
+
+#buttond:hover #live {
+    visibility: visible;
+    opacity:1;
 }
 
 
-
-#buttone{
-  width:40px;
-  height:40px;
-  background: #815A37;
-  -moz-border-radius: 20px;
-  -webkit-border-radius: 20px;
-  border-radius: 20px;
-  opacity: 1.0;
-
-
-}
-#buttone:hover {
-    opacity: 0.2;
-    filter: alpha(opacity=100); 
-}
 
 
 
@@ -663,14 +762,13 @@ img{
   border-radius: 20px;
   position: absolute;
   opacity: 1.0;
-  top:200px;
+  top:600px;
   left:100px;
 
 
 }
 #buttonf:hover {
-    opacity: 0.2;
-    filter: alpha(opacity=100); 
+background:#815A37;
 }
 
 

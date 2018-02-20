@@ -114,7 +114,7 @@ img{
 .tooltip0{
   color:#E2B68E;
   margin-top:-100px;
-  margin-left:700px;
+  margin-left:850px;
   font-size:36px
 }
 
@@ -368,6 +368,214 @@ img{
   cursor: help;
  
 }
+
+
+
+/*red*/
+
+#buttona{
+  width:40px;
+  height:40px;
+  background: #6D2525;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  border-radius: 20px;
+  opacity:1.0;
+  position: absolute;
+  top:200px;
+  left:100px;
+
+}
+#buttona:hover {
+    background:#14481A;
+}
+
+
+#buttona #zhong{
+      visibility: hidden;
+    width: 120px;
+    background-color: black;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: 5px;
+    left: 105%;
+    opacity:1;
+}
+
+#buttona:hover #zhong {
+    visibility: visible;
+    opacity:1;
+}
+
+
+/*purple*/
+
+#buttonb{
+  width:40px;
+  height:40px;
+  background: #724876;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  border-radius: 20px;
+  opacity:1.0;
+  position: absolute;
+  top:300px;
+  left:100px;
+
+}
+#buttonb:hover {
+    background:#14481A;
+}
+
+
+#buttonb #rose{
+      visibility: hidden;
+    width: 120px;
+    background-color: black;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: 5px;
+    left: 105%;
+    opacity:1;
+}
+
+#buttonb:hover #rose {
+    visibility: visible;
+    opacity:1;
+}
+
+
+
+/*blue*/
+
+#buttonc{
+  width:40px;
+  height:40px;
+  background: #2D2C5C;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  border-radius: 20px;
+  opacity:1.0;
+  position: absolute;
+  top:400px;
+  left:100px;
+
+}
+#buttonc:hover {
+background:#14481A;
+}
+
+
+#buttonc #heroine{
+	    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: 5px;
+    left: 105%;
+    opacity:1;
+}
+
+#buttonc:hover #heroine {
+    visibility: visible;
+    opacity:1;
+}
+
+
+/*yellow*/
+
+#buttone{
+  width:40px;
+  height:40px;
+  background: #815A37;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  border-radius: 20px;
+  opacity: 1.0;
+ position: absolute;
+  top:500px;
+  left:100px;
+}
+#buttone:hover {
+background:#14481A;
+}
+
+#buttone #com{
+      visibility: hidden;
+    width: 210px;
+    background-color: black;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: 5px;
+    left: 105%;
+    opacity:1;
+}
+
+#buttone:hover #com {
+    visibility: visible;
+    opacity:1;
+}
+
+
+
+
+
+
+
+
+
+
+#buttonf{
+  width:40px;
+  height:40px;
+  background: black;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  border-radius: 20px;
+position: absolute;
+  opacity: 1.0;
+    top:600px;
+  left:100px;
+
+
+}
+#buttonf:hover {
+background:#14481A; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

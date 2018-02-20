@@ -88,6 +88,28 @@ img{
  
 }
 
+#dc{
+    -webkit-animation: mymove 3s; 
+    -webkit-animation-play-state: running; 
+    animation: mymove 3s;
+    animation-play-state: running;
+  }
+
+
+ 
+@-webkit-keyframes mymove {
+    from {font-size: 10px; color:black;}
+    to {font-size: 46px; color:#E2B68E;}
+}
+
+@keyframes mymove {
+    from {font-size: 10px; color:black;}
+    to {font-size: 46px; color:#E2B68E;}
+}
+
+
+
+
 
 /*/*musu*/
 .tooltip0 .tooltiptext {
@@ -156,6 +178,25 @@ img{
   filter: alpha(opacity=100);
   cursor: help;
 }
+
+#musu{
+    -webkit-animation: mymove 3s; 
+    -webkit-animation-play-state: running; 
+    animation: mymove 3s;
+    animation-play-state: running;}
+
+
+ 
+@-webkit-keyframes mymove {
+    from {font-size: 10px; color:#724876;}
+    to {font-size: 24px; color:#E2B68E;}
+}
+
+@keyframes mymove {
+    from {font-size: 10px; color:#724876;}
+    to {font-size: 24px; color:#E2B68E;}
+}
+
 
 
 /*/*huanghe*/
@@ -228,6 +269,27 @@ img{
 }
 
 
+
+
+#ming{
+    -webkit-animation: mymove 3s; 
+    -webkit-animation-play-state: running; 
+    animation: mymove 3s;
+    animation-play-state: running;}
+
+
+ 
+@-webkit-keyframes mymove {
+    from {font-size: 10px; color:#724876;}
+    to {font-size: 24px; color:#E2B68E;}
+}
+
+@keyframes mymove {
+    from {font-size: 10px; color:#724876;}
+    to {font-size: 24px; color:#E2B68E;}
+}
+
+
 /*/*xishi*/
 .tooltip2 .tooltiptext {
     visibility: hidden;
@@ -296,6 +358,26 @@ transition: all 6s ease;
   cursor: help;
   
 }
+
+#xi{
+    -webkit-animation: mymove 3s; 
+    -webkit-animation-play-state: running; 
+    animation: mymove 3s;
+    animation-play-state: running;}
+
+
+ 
+@-webkit-keyframes mymove {
+    from {font-size: 10px; color:#724876;}
+    to {font-size: 24px; color:#E2B68E;}
+}
+
+@keyframes mymove {
+    from {font-size: 10px; color:#724876;}
+    to {font-size: 24px; color:#E2B68E;}
+}
+
+
 
 
 
@@ -369,6 +451,24 @@ transition: all 6s ease;
 
 }
 
+#nan{
+    -webkit-animation: mymove 3s; 
+    -webkit-animation-play-state: running; 
+    animation: mymove 3s;
+    animation-play-state: running;}
+
+
+ 
+@-webkit-keyframes mymove {
+    from {font-size: 10px; color:#724876;}
+    to {font-size: 24px; color:#E2B68E;}
+}
+
+@keyframes mymove {
+    from {font-size: 10px; color:#724876;}
+    to {font-size: 24px; color:#E2B68E;}
+}
+
 
 
 /*/*beishi*/
@@ -440,6 +540,24 @@ transition: all 6s ease;
 }
 
 
+#bei{
+    -webkit-animation: mymove 3s; 
+    -webkit-animation-play-state: running; 
+    animation: mymove 3s;
+    animation-play-state: running;}
+
+
+ 
+@-webkit-keyframes mymove {
+    from {font-size: 10px; color:#724876;}
+    to {font-size: 24px; color:#E2B68E;}
+}
+
+@keyframes mymove {
+    from {font-size: 10px; color:#724876;}
+    to {font-size: 24px; color:#E2B68E;}
+}
+
 
 /*/*dongshi*/
 .tooltip5 .tooltiptext {
@@ -507,6 +625,25 @@ transition: all 6s ease;
   opacity:1.0;
   filter: alpha(opacity=100);
   cursor: help;
+}
+
+
+#dong{
+    -webkit-animation: mymove 3s; 
+    -webkit-animation-play-state: running; 
+    animation: mymove 3s;
+    animation-play-state: running;}
+
+
+ 
+@-webkit-keyframes mymove {
+    from {font-size: 10px; color:#724876;}
+    to {font-size: 24px; color:#E2B68E;}
+}
+
+@keyframes mymove {
+    from {font-size: 10px; color:#724876;}
+    to {font-size: 24px; color:#E2B68E;}
 }
 
 

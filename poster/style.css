@@ -8,10 +8,26 @@ html, body {
   font-size: 20pt;
   color: #F4ED7C;
   opacity: 0.8;
-  margin-top:300px;
+  margin-top:220px;
   margin-left: 20px;
   text-align: center;
 }
+
+#ds{
+  position: relative;
+  top:350px;
+  left:15px;
+  opacity: 0.6;
+  text-align:center
+}
+
+a {
+  cursor: help;
+  color:white;
+  font-size:20px;
+}
+
+
 
 
 .chartis{
@@ -19,38 +35,72 @@ html, body {
   color: rgba(255,255,255,0.7);
   font-family: Songti;
   font-size: 20px;
-  position: absolute;
+  position: relative;
   margin-left: 590px;
-  margin-top:500px;
+  margin-top:-50px;
+  top:720px;
   z-index: 99;
+
 }
 
 
-.artis{
+#artis{
+  position: relative;
+  top:200px;
   font-weight: lighter;
   font-size: 20pt;
   color: #F4ED7C;
   opacity: 0.8;
-  margin-top:580px;
+  margin-top:400px;
+  top:320px;
   margin-left: 20px;
   text-align: center;
+  position: relative;
 }
 
+
+
 img{
+    position: relative;
     border-radius: 50%;
+    top:300px;
     margin-left: 510px;
     opacity: 0.7
 }
 
 
-.ardes{
+.overlay {
+  position: relative;
+  left:530px;
+  top:170px;
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); 
+  color: #f1f1f1; 
+  width: 10%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.container:hover .overlay {
+  opacity: 0.8;
+}
+
+
+#ardes{
   font-weight: lighter;
   font-size: 12pt;
   color: #F7E8AA;
   opacity: 0.8;
-  margin-top:20px;
+  margin-top:120px;
   margin-left: 20px;
   text-align: center;
+  position: relative;
+  top:120px;
   opacity: 0.5
 }
 
@@ -59,10 +109,11 @@ img{
   color: rgba(255,255,255,0.7);
   font-family: Songti;
   font-size: 20px;
-  position: absolute;
+  position: relative;
   margin-left: 575px;
-  margin-top:90px;
+  margin-top:70px;
   z-index: 99;
+  top:120px;
 }
 
 .endes{
@@ -73,11 +124,13 @@ img{
   margin-top:160px;
   margin-left: 20px;
   text-align: center;
+  position: relative;
+  top:-40px;
 
 }
 
 
-.text{
+#text{
   font-weight: lighter;
   font-size: 12pt;
   color: #F7E8AA;
@@ -86,7 +139,13 @@ img{
   margin-left: 30px;
 text-align: left;
 text-indent: 50px;
-opacity: 0.4
+height:200px;
+margin-right: 200px;
+margin-left: 200px;
+opacity: 0.4;
+overflow:scroll;
+ position: relative;
+ top:-70px;
 }
 
 
@@ -140,9 +199,9 @@ background:url(http://www.hwjyw.com/36/2011-04-07/U120P26T36D65F170DT20110426092
   top: 30px;
   width: 10000px;
   -webkit-animation: move linear infinite;
-  -webkit-animation-duration: 100s;
+  -webkit-animation-duration: 250s;
   -moz-animation: move linear infinite;
-  -moz-animation-duration: 100s;
+  -moz-animation-duration: 250s;
 }
 
 @-webkit-keyframes move {

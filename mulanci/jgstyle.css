@@ -65,7 +65,8 @@ img{
   content: attr(data-title);
   font-size: 26px;
     top:-80px;
-    left:-10px;
+    margin-left:-650px;
+    text-align: center;
   white-space: pre-line;
 }
 
@@ -92,6 +93,32 @@ img{
   filter: alpha(opacity=100);
   cursor: help;
 }
+
+
+#wanli{
+    -webkit-animation: mymove 3s; 
+    -webkit-animation-play-state: running; 
+    animation: mymove 3s;
+    animation-play-state: running;
+    -webkit-animation-timing-function: cubic-bezier(.59,.57,.05,.89); 
+    animation-timing-function: cubic-bezier(.59,.57,.05,.89); 
+}
+
+
+ 
+@-webkit-keyframes mymove {
+    from {font-size: 10px; color:#2D2C5C;}
+    to {font-size: 26px; color:#E2B68E;}
+}
+
+@keyframes mymove {
+    from {font-size: 10px; color:#2D2C5C;}
+    to {font-size: 26px; color:#E2B68E;}
+}
+
+
+
+
 
 /*shuoqi*/
 /*chinese position*/
@@ -154,8 +181,30 @@ img{
 #shuoqi:hover{
   filter: alpha(opacity=100);
   opacity:1.0;
-  cursor: help;
+  cursor: help;}
   
+
+
+  #shuoqi{
+    -webkit-animation: sq 3s; 
+    -webkit-animation-play-state: running; 
+    animation: sq 3s;
+    animation-play-state: running;
+    -webkit-animation-timing-function: cubic-bezier(.59,.57,.05,.89); 
+    animation-timing-function: cubic-bezier(.59,.57,.05,.89); 
+}
+
+
+ 
+@-webkit-keyframes sq {
+    from {font-size: 10px; color:#2D2C5C;}
+    to {font-size: 30px; color:#E2B68E;}
+}
+
+@keyframes sq {
+    from {font-size: 10px; color:#2D2C5C;}
+    to {font-size: 30px; color:#E2B68E;}
+}
 
 }
 
@@ -225,6 +274,28 @@ img{
    filter: alpha(opacity=100);
      cursor: help;
 }
+
+#jiangjun{
+    -webkit-animation: jj 3s; 
+    -webkit-animation-play-state: running; 
+    animation: jj 3s;
+    animation-play-state: running;
+    -webkit-animation-timing-function: cubic-bezier(.59,.57,.05,.89); 
+    animation-timing-function: cubic-bezier(.59,.57,.05,.89); 
+}
+
+
+ 
+@-webkit-keyframes jj {
+    from {font-size: 10px; color:#2D2C5C;}
+    to {font-size: 50px; color:#E2B68E;}
+}
+
+@keyframes jj {
+    from {font-size: 10px; color:#2D2C5C;}
+    to {font-size: 50px; color:#E2B68E;}
+}
+
 
 
 /*red*/

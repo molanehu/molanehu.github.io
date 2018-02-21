@@ -89,21 +89,23 @@ img{
 }
 
 #dc{
-    -webkit-animation: mymove 3s; 
+    -webkit-animation: dc 2s; 
     -webkit-animation-play-state: running; 
-    animation: mymove 3s;
+    -webkit-animation-timing-function: cubic-bezier(.59,.57,.05,.89); 
+    animation-timing-function: cubic-bezier(.59,.57,.05,.89); 
+    animation: dc 2s;
     animation-play-state: running;
   }
 
 
  
-@-webkit-keyframes mymove {
-    from {font-size: 10px; color:black;}
+@-webkit-keyframes dc {
+    from {font-size: 40px; color:#724876;}
     to {font-size: 46px; color:#E2B68E;}
 }
 
-@keyframes mymove {
-    from {font-size: 10px; color:black;}
+@keyframes dc {
+    from {font-size: 40px; color:#724876;}
     to {font-size: 46px; color:#E2B68E;}
 }
 
@@ -183,7 +185,10 @@ img{
     -webkit-animation: mymove 3s; 
     -webkit-animation-play-state: running; 
     animation: mymove 3s;
-    animation-play-state: running;}
+    animation-play-state: running;
+    -webkit-animation-timing-function: cubic-bezier(.59,.57,.05,.89); 
+    animation-timing-function: cubic-bezier(.59,.57,.05,.89); 
+}
 
 
  
@@ -272,22 +277,13 @@ img{
 
 
 #ming{
-    -webkit-animation: mymove 3s; 
+    -webkit-animation: mymove 4s; 
     -webkit-animation-play-state: running; 
-    animation: mymove 3s;
+    animation: mymove 4s;
     animation-play-state: running;}
 
 
  
-@-webkit-keyframes mymove {
-    from {font-size: 10px; color:#724876;}
-    to {font-size: 24px; color:#E2B68E;}
-}
-
-@keyframes mymove {
-    from {font-size: 10px; color:#724876;}
-    to {font-size: 24px; color:#E2B68E;}
-}
 
 
 /*/*xishi*/
@@ -360,22 +356,11 @@ transition: all 6s ease;
 }
 
 #xi{
-    -webkit-animation: mymove 3s; 
+    -webkit-animation: mymove 5s; 
     -webkit-animation-play-state: running; 
-    animation: mymove 3s;
+    animation: mymove 5s;
     animation-play-state: running;}
 
-
- 
-@-webkit-keyframes mymove {
-    from {font-size: 10px; color:#724876;}
-    to {font-size: 24px; color:#E2B68E;}
-}
-
-@keyframes mymove {
-    from {font-size: 10px; color:#724876;}
-    to {font-size: 24px; color:#E2B68E;}
-}
 
 
 
@@ -452,22 +437,14 @@ transition: all 6s ease;
 }
 
 #nan{
-    -webkit-animation: mymove 3s; 
+    -webkit-animation: mymove 5s; 
     -webkit-animation-play-state: running; 
-    animation: mymove 3s;
+    animation: mymove 5s;
     animation-play-state: running;}
 
 
  
-@-webkit-keyframes mymove {
-    from {font-size: 10px; color:#724876;}
-    to {font-size: 24px; color:#E2B68E;}
-}
 
-@keyframes mymove {
-    from {font-size: 10px; color:#724876;}
-    to {font-size: 24px; color:#E2B68E;}
-}
 
 
 
@@ -541,22 +518,10 @@ transition: all 6s ease;
 
 
 #bei{
-    -webkit-animation: mymove 3s; 
+    -webkit-animation: mymove 5s; 
     -webkit-animation-play-state: running; 
-    animation: mymove 3s;
+    animation: mymove 5s;
     animation-play-state: running;}
-
-
- 
-@-webkit-keyframes mymove {
-    from {font-size: 10px; color:#724876;}
-    to {font-size: 24px; color:#E2B68E;}
-}
-
-@keyframes mymove {
-    from {font-size: 10px; color:#724876;}
-    to {font-size: 24px; color:#E2B68E;}
-}
 
 
 /*/*dongshi*/
@@ -629,22 +594,13 @@ transition: all 6s ease;
 
 
 #dong{
-    -webkit-animation: mymove 3s; 
+    -webkit-animation: mymove 5s; 
     -webkit-animation-play-state: running; 
-    animation: mymove 3s;
+    animation: mymove 5s;
     animation-play-state: running;}
 
 
  
-@-webkit-keyframes mymove {
-    from {font-size: 10px; color:#724876;}
-    to {font-size: 24px; color:#E2B68E;}
-}
-
-@keyframes mymove {
-    from {font-size: 10px; color:#724876;}
-    to {font-size: 24px; color:#E2B68E;}
-}
 
 
 /*/*hh*/
@@ -716,6 +672,18 @@ transition: all 6s ease;
 
 }
 
+#hh{
+    -webkit-animation: dc 6s; 
+    -webkit-animation-play-state: running; 
+    -webkit-animation-timing-function: cubic-bezier(.59,.57,.05,.89); 
+    animation-timing-function: cubic-bezier(.59,.57,.05,.89); 
+    animation: dc 6s;
+    animation-play-state: running;
+  }
+
+
+
+
 
 /*/*mu*/
 .tooltip7 .tooltiptext {
@@ -785,6 +753,12 @@ transition: all 6s ease;
   cursor: help;
 
 }
+
+#mu{
+    -webkit-animation: mymove 7s; 
+    -webkit-animation-play-state: running; 
+    animation: mymove 7s;
+    animation-play-state: running;}
 
 
 
@@ -856,13 +830,13 @@ transition: all 6s ease;
   cursor: help;
 }
 
+#jiu{
+    -webkit-animation: mymove 8s; 
+    -webkit-animation-play-state: running; 
+    animation: mymove 8s;
+    animation-play-state: running;}
 
 
-
-/*button*/
-.button{
-  margin-top:-120px;
-}
 
 
 

@@ -93,6 +93,29 @@ img{
 }
 
 
+
+#jiji{
+    -webkit-animation: mymove 3s; 
+    -webkit-animation-play-state: running; 
+    animation: mymove 3s;
+    animation-play-state: running;
+    -webkit-animation-timing-function: cubic-bezier(.59,.57,.05,.89); 
+    animation-timing-function: cubic-bezier(.59,.57,.05,.89); 
+}
+
+
+ 
+@-webkit-keyframes mymove {
+    from {font-size: 10px; color:#6D2525;}
+    to {font-size: 26px; color:#E2B68E;}
+}
+
+@keyframes mymove {
+    from {font-size: 10px; color:#6D2525;}
+    to {font-size: 26px; color:#E2B68E;}
+}
+
+
 /*buwenjizhusheng*/
 .tooltip0 .tooltiptext {
     visibility: hidden;
@@ -160,6 +183,17 @@ img{
   filter: alpha(opacity=100);
   cursor: help;
 }
+
+#buwen{
+    -webkit-animation: mymove 4s; 
+    -webkit-animation-play-state: running; 
+    animation: mymove 4s;
+    animation-play-state: running;
+    -webkit-animation-timing-function: cubic-bezier(.59,.57,.05,.89); 
+    animation-timing-function: cubic-bezier(.59,.57,.05,.89); 
+}
+
+
 
 
 /*wennv*/
@@ -229,6 +263,17 @@ img{
   filter: alpha(opacity=100);
   cursor: help;
 }
+
+#wennv{
+    -webkit-animation: mymove 5s; 
+    -webkit-animation-play-state: running; 
+    animation: mymove 5s;
+    animation-play-state: running;
+    -webkit-animation-timing-function: cubic-bezier(.59,.57,.05,.89); 
+    animation-timing-function: cubic-bezier(.59,.57,.05,.89); 
+}
+
+
 
 
 /*nvyi*/
@@ -300,6 +345,16 @@ img{
 }
 
 
+#nvyi{
+    -webkit-animation: mymove 6s; 
+    -webkit-animation-play-state: running; 
+    animation: mymove 6s;
+    animation-play-state: running;
+    -webkit-animation-timing-function: cubic-bezier(.59,.57,.05,.89); 
+    animation-timing-function: cubic-bezier(.59,.57,.05,.89); 
+}
+
+
 /*zuoye*/
 .tooltip3 .tooltiptext {
     visibility: hidden;
@@ -368,6 +423,17 @@ img{
   cursor: help;
 }
 
+#zuoye{
+    -webkit-animation: mymove 7s; 
+    -webkit-animation-play-state: running; 
+    animation: mymove 7s;
+    animation-play-state: running;
+    -webkit-animation-timing-function: cubic-bezier(.59,.57,.05,.89); 
+    animation-timing-function: cubic-bezier(.59,.57,.05,.89); 
+}
+
+
+
 /*junshu*/
 .tooltip4 .tooltiptext {
     visibility: hidden;
@@ -434,6 +500,15 @@ img{
   opacity:1.0;
   filter: alpha(opacity=100);
   cursor: help;
+}
+
+#junshu{
+    -webkit-animation: mymove 8s; 
+    -webkit-animation-play-state: running; 
+    animation: mymove 8s;
+    animation-play-state: running;
+    -webkit-animation-timing-function: cubic-bezier(.59,.57,.05,.89); 
+    animation-timing-function: cubic-bezier(.59,.57,.05,.89); 
 }
 
 
@@ -506,6 +581,16 @@ img{
   cursor: help;
 }
 
+#aye{
+    -webkit-animation: mymove 9s; 
+    -webkit-animation-play-state: running; 
+    animation: mymove 9s;
+    animation-play-state: running;
+    -webkit-animation-timing-function: cubic-bezier(.59,.57,.05,.89); 
+    animation-timing-function: cubic-bezier(.59,.57,.05,.89); 
+}
+
+
 
 /*yw*/
 .tooltip6 .tooltiptext {
@@ -575,6 +660,26 @@ img{
   cursor: help;
 }
 
+#yw{
+    -webkit-animation: yw 10s; 
+    -webkit-animation-play-state: running; 
+    -webkit-animation-timing-function: cubic-bezier(.59,.57,.05,.89); 
+    animation-timing-function: cubic-bezier(.59,.57,.05,.89); 
+    animation: yw 10s;
+    animation-play-state: running;
+  }
+
+
+ 
+@-webkit-keyframes yw {
+    from {font-size: 40px; color:#6D2525;}
+    to {font-size: 48px; color:#E2B68E;}
+}
+
+@keyframes yw {
+    from {font-size: 40px; color:#6D2525;}
+    to {font-size: 48px; color:#E2B68E;}
+}
 
 
 

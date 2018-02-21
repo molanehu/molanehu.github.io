@@ -90,6 +90,29 @@ img{
 }
 
 
+#guilai{
+    -webkit-animation: guilai 2s; 
+    -webkit-animation-play-state: running; 
+    -webkit-animation-timing-function: cubic-bezier(.59,.57,.05,.89); 
+    animation-timing-function: cubic-bezier(.59,.57,.05,.89); 
+    animation: guilai 2s;
+    animation-play-state: running;
+  }
+
+
+ 
+@-webkit-keyframes guilai {
+    from {font-size: 5px; color:#14481A;}
+    to {font-size: 24px; color:#E2B68E;}
+}
+
+@keyframes guilai {
+    from {font-size: 5px; color:#14481A;}
+    to {font-size: 24px; color:#E2B68E;}
+}
+
+
+
 
 
 
@@ -161,6 +184,30 @@ img{
  
 }
 
+#cexun{
+    -webkit-animation: cexun 5s; 
+    -webkit-animation-play-state: running; 
+    -webkit-animation-timing-function: cubic-bezier(.59,.57,.05,.89); 
+    animation-timing-function: cubic-bezier(.59,.57,.05,.89); 
+    animation: cexun 5s;
+    animation-play-state: running;
+  }
+
+
+ 
+@-webkit-keyframes cexun {
+    from {font-size: 0px; color:#14481A;}
+    to {font-size: 36px; color:#E2B68E;}
+}
+
+@keyframes cexun {
+    from {font-size: 0px; color:#14481A;}
+    to {font-size: 36px; color:#E2B68E;}
+}
+
+
+
+
 
 /*kehan*/
 .tooltip1 .tooltiptext {
@@ -231,6 +278,30 @@ img{
 }
 
 
+#kehan{
+    -webkit-animation: kehan 7s; 
+    -webkit-animation-play-state: running; 
+    -webkit-animation-timing-function: cubic-bezier(.42,.46,.74,.68); 
+    animation-timing-function: cubic-bezier(.42,.46,.74,.68); 
+    animation: kehan 7s;
+    animation-play-state: running;
+  }
+
+
+ 
+@-webkit-keyframes kehan {
+    from {font-size: 0px; color:#14481A;}
+    to {font-size: 43px; color:#E2B68E;}
+}
+
+@keyframes kehan {
+    from {font-size: 0px; color:#14481A;}
+    to {font-size: 43px; color:#E2B68E;}
+}
+
+
+
+
 /*mulan*/
 .tooltip2 .tooltiptext {
     visibility: hidden;
@@ -299,6 +370,26 @@ img{
  
 }
 
+#mulan{
+    -webkit-animation: mulan 10s; 
+    -webkit-animation-play-state: running; 
+    -webkit-animation-timing-function: cubic-bezier(.42,.46,.74,.68); 
+    animation-timing-function: cubic-bezier(.42,.46,.74,.68); 
+    animation: mulan 10s;
+    animation-play-state: running;
+  }
+
+
+ 
+@-webkit-keyframes mulan {
+    from {font-size: 0px; color:#14481A;}
+    to {font-size: 50px; color:#E2B68E;}
+}
+
+@keyframes mulan {
+    from {font-size: 0px; color:#14481A;}
+    to {font-size: 50px; color:#E2B68E;}
+}
 
 
 /*mulan*/
@@ -367,6 +458,28 @@ img{
   filter: alpha(opacity=100);
   cursor: help;
  
+}
+
+
+#yuan{
+    -webkit-animation: yuan 15s; 
+    -webkit-animation-play-state: running; 
+    -webkit-animation-timing-function: cubic-bezier(.42,.46,.74,.68); 
+    animation-timing-function: cubic-bezier(.42,.46,.74,.68); 
+    animation: yuan 15s;
+    animation-play-state: running;
+  }
+
+
+ 
+@-webkit-keyframes yuan {
+    from {font-size: 0px; color:#14481A;}
+    to {font-size: 50px; color:#E2B68E;}
+}
+
+@keyframes yuan {
+    from {font-size: 0px; color:#14481A;}
+    to {font-size: 50px; color:#E2B68E;}
 }
 
 

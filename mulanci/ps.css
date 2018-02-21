@@ -90,6 +90,36 @@ img{
 }
 
 
+#ye:hover{
+  opacity:1.0;
+  filter: alpha(opacity=100);
+  cursor: help;
+ 
+}
+
+
+#ye{
+    -webkit-animation: ye 3s; 
+    -webkit-animation-play-state: running; 
+    -webkit-animation-timing-function: cubic-bezier(.42,.46,.74,.68); 
+    animation-timing-function: cubic-bezier(.42,.46,.74,.68); 
+    animation: ye 3s;
+    animation-play-state: running;
+  }
+
+
+ 
+@-webkit-keyframes ye {
+    from {font-size: 0px; color:#815A37;}
+    to {font-size: 46px; color:#E2B68E;}
+}
+
+@keyframes ye {
+    from {font-size: 0px; color:#815A37;}
+    to {font-size: 46px; color:#E2B68E;}
+}
+
+
 /*/*ajie*/
 .tooltip1 .tooltiptext {
     visibility: hidden;
@@ -156,6 +186,27 @@ img{
   filter: alpha(opacity=100);
   cursor: help;
  
+}
+
+#ajie{
+    -webkit-animation: ajie 5s; 
+    -webkit-animation-play-state: running; 
+    -webkit-animation-timing-function: cubic-bezier(.42,.46,.74,.68); 
+    animation-timing-function: cubic-bezier(.42,.46,.74,.68); 
+    animation: ajie 5s;
+    animation-play-state: running;
+  }
+
+
+ 
+@-webkit-keyframes ajie {
+    from {font-size: 0px; color:#815A37;}
+    to {font-size: 46px; color:#E2B68E;}
+}
+
+@keyframes ajie {
+    from {font-size: 0px; color:#815A37;}
+    to {font-size: 46px; color:#E2B68E;}
 }
 
 
@@ -229,6 +280,32 @@ img{
  
 }
 
+#xiaodi{
+    -webkit-animation: xiaodi 3s; 
+    -webkit-animation-play-state: running; 
+    -webkit-animation-timing-function: cubic-bezier(.42,.46,.74,.68); 
+    animation-timing-function: cubic-bezier(.42,.46,.74,.68); 
+    animation: xiaodi 3s;
+    animation-play-state: running;
+  }
+
+
+ 
+@-webkit-keyframes xiaodi {
+    from {font-size: 0px; color:#815A37;}
+    to {font-size: 46px; color:#E2B68E;}
+}
+
+@keyframes xiaodi {
+    from {font-size: 0px; color:#815A37;}
+    to {font-size: 46px; color:#E2B68E;}
+}
+
+
+
+
+
+
 
 /*/*kaiwo*/
 .tooltip3 .tooltiptext {
@@ -296,6 +373,27 @@ img{
   filter: alpha(opacity=100);
   cursor: help;
  
+}
+
+#kai{
+    -webkit-animation: kai 5s; 
+    -webkit-animation-play-state: running; 
+    -webkit-animation-timing-function: cubic-bezier(.42,.46,.74,.68); 
+    animation-timing-function: cubic-bezier(.42,.46,.74,.68); 
+    animation: kai 5s;
+    animation-play-state: running;
+  }
+
+
+ 
+@-webkit-keyframes kai {
+    from {font-size: 0px; color:#815A37;}
+    to {font-size: 28px; color:#E2B68E;}
+}
+
+@keyframes kai {
+    from {font-size: 0px; color:#815A37;}
+    to {font-size: 28px; color:#E2B68E;}
 }
 
 
@@ -369,6 +467,27 @@ img{
  
 }
 
+#jh{
+    -webkit-animation: jh 3s; 
+    -webkit-animation-play-state: running; 
+    -webkit-animation-timing-function: cubic-bezier(.42,.46,.74,.68); 
+    animation-timing-function: cubic-bezier(.42,.46,.74,.68); 
+    animation: kai 3s;
+    animation-play-state: running;
+  }
+
+
+ 
+@-webkit-keyframes jh {
+    from {font-size: 0px; color:#815A37;}
+    to {font-size: 40px; color:#E2B68E;}
+}
+
+@keyframes jh {
+    from {font-size: 0px; color:#815A37;}
+    to {font-size: 40px; color:#E2B68E;}
+}
+
 
 
 /*chumen*/
@@ -438,6 +557,28 @@ img{
   cursor: help;
  
 }
+
+#nvl{
+    -webkit-animation: nvl 5s; 
+    -webkit-animation-play-state: running; 
+    -webkit-animation-timing-function: cubic-bezier(.42,.46,.74,.68); 
+    animation-timing-function: cubic-bezier(.42,.46,.74,.68); 
+    animation: nvl 5s;
+    animation-play-state: running;
+  }
+
+
+ 
+@-webkit-keyframes nvl {
+    from {font-size: 0px; color:#815A37;}
+    to {font-size: 49px; color:#E2B68E;}
+}
+
+@keyframes nvl {
+    from {font-size: 0px; color:#815A37;}
+    to {font-size: 49px; color:#E2B68E;}
+}
+
 
 
 
@@ -509,6 +650,27 @@ img{
  
 }
 
+#xt{
+    -webkit-animation: xt 3s; 
+    -webkit-animation-play-state: running; 
+    -webkit-animation-timing-function: cubic-bezier(.42,.46,.74,.68); 
+    animation-timing-function: cubic-bezier(.42,.46,.74,.68); 
+    animation: xt 3s;
+    animation-play-state: running;
+  }
+
+
+ 
+@-webkit-keyframes xt {
+    from {font-size: 0px; color:#815A37;}
+    to {font-size: 49px; color:#E2B68E;}
+}
+
+@keyframes xt {
+    from {font-size: 0px; color:#815A37;}
+    to {font-size: 49px; color:#E2B68E;}
+}
+
 
 /*/shuangtu*/
 .tooltip7 .tooltiptext {
@@ -576,6 +738,28 @@ img{
   filter: alpha(opacity=100);
   cursor: help;
  
+}
+
+
+#stu{
+    -webkit-animation: stu 5s; 
+    -webkit-animation-play-state: running; 
+    -webkit-animation-timing-function: cubic-bezier(.42,.46,.74,.68); 
+    animation-timing-function: cubic-bezier(.42,.46,.74,.68); 
+    animation: stu 5s;
+    animation-play-state: running;
+  }
+
+
+ 
+@-webkit-keyframes stu {
+    from {font-size: 0px; color:#815A37;}
+    to {font-size: 49px; color:#E2B68E;}
+}
+
+@keyframes stu {
+    from {font-size: 0px; color:#815A37;}
+    to {font-size: 49px; color:#E2B68E;}
 }
 
 

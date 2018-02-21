@@ -1,0 +1,162 @@
+   body {
+      background-color: black;
+      background-image: url(https://media.giphy.com/media/krowyBOyDWzNS/giphy.gif);
+      margin: 50px;
+      font-weight: bold;
+      font-size: 16px;
+      background-repeat: no-repeat;
+      background-size: 1700px 1700px;
+    }
+
+   .wrapper {
+  width: 1000px;
+  padding: 50px;
+  height: 1150px;
+  background-image: url(http://images.missyuan.com/attachments/day_081101/20081101_76f485b3e01d7daa6e61wR4PyB84bGVn.png);
+  background-size: 1000px;
+  position:absolute;
+  left:210px;
+  margin-left: auto;
+  margin-right: auto;;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+
+
+ #b{
+ 	font-family: 'Cinzel', serif;
+ 	font-size: 14px;
+ 	color:white;
+ 	opacity: 0.8;
+ 	position: absolute;
+ 	top:1080px;
+ 	left:460px;
+ 	text-align: center;
+ 	width: 500px;
+    height: 200px;
+ 	overflow: scroll
+ }
+
+
+#hu{
+	 width: 50px;
+    height: 50px;
+    position: absolute;
+    top:260px;
+    left:460px;
+}
+
+
+
+         
+      p {
+    	color:white;
+    	font-family: 'Cinzel', serif;
+    	font-size: 12pt;
+        text-align: center;
+        position:relative;
+        right:60px;
+        font-size: 14px;
+        bottom:-270px;
+       -webkit-animation:colorchange 7s infinite alternate;
+        }
+
+      @-webkit-keyframes colorchange {
+      0% {
+        color: #001a33;
+      }
+      20% {
+        color: #0066cc;
+      } 
+      40% {
+        color: #4da6ff;
+      }
+      60% {      
+        color: #99ccff;
+      }
+      80% {   
+        color: #cce6ff;
+      }  
+      100% { 
+        color: #ffffff;
+      }
+    }
+
+
+
+
+
+
+#butterfly{
+	position: relative;
+	top:1250px;
+	left:350px;
+}
+
+
+
+#b2{
+  position: relative;
+  top:1250px;
+  left:700px;
+}
+
+/*#clear{
+	position: relative;
+	top:2250px;
+	left:550px;
+}
+*/
+
+    .element {
+      width: 100px;
+      height: 100px;
+      background-color: #000;
+      margin: 10px;
+      float:left;
+      color:#fff;
+      z-index: 20;
+      position: relative;
+      top:1200px;
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

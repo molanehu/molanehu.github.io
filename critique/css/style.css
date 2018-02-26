@@ -1,0 +1,130 @@
+body {
+  color: white;
+  background-color: #240251;
+  transition: background-color 1s ease;
+}
+
+/* panel styles */
+.panel {
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+/* colours */
+.color-violet {
+  background-color: #7a4eab;
+}
+.color-black {
+  background-color: black;
+}
+.color-blue {
+  background-color: #87d4d9;
+}
+.color-pink {
+  background-color: #630027;
+}
+.color-yellow {
+  background-color: #c99221;
+}
+
+/* styling for demo, can ignore */
+body {
+  text-align: center;
+  font-size: 120%;
+  line-height: 1.618;
+}
+h1,
+h2 {
+  font-size: 3em;
+  letter-spacing: -0.05em;
+  line-height: 1.1;
+}
+p {
+  max-width: 30em;
+  margin-bottom: 1.618em;
+}
+a {
+  color: white;
+}
+
+a:link {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+a:hover {
+  color: white;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.pata {
+  text-align: left;
+}
+
+#pt {
+  background: url("https://img.buzzfeed.com/buzzfeed-static/static/2015-08/4/15/enhanced/webdr14/anigif_original-26956-1438717649-5.gif");
+}
+
+.minimal {
+  text-align: left;
+}
+
+#shopskin {
+  text-align: left;
+  border: double;
+  padding: 40px;
+  border-style: solid;
+}
+
+#head {
+  text-align: left;
+}
+
+#mo {
+  color: #00b8fd;
+  text-shadow: 5px 6px #ff0000;
+}
+
+#museum {
+  text-align: left;
+}
+
+#ill {
+  text-decoration: line-through;
+}
+
+
+
+
+
+
+@media (max-width: 800px){
+  .panel{
+    display:block;
+    margin-left: 50px
+  }
+
+#illusional,#md,#skin,#pt,#mini {
+  margin: auto;
+  padding:10px;
+}
+#main{
+  margin-top: 200px;
+  margin-left:50px;
+  width:200px;
+}
+
+
+
+
+}
+
+
+
+
+
+

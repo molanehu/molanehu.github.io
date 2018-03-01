@@ -1,0 +1,184 @@
+body{
+  font-family:Helvetica;
+    background-color:#01a5a2;
+}
+
+h1{
+  font-size:250px;
+  background-color:#01a5a2;
+   text-shadow: 1px 100px 1px #ff7000, 6px 1px 1px red;
+  text-align:center;
+  padding: 10px;
+  color:#01a5a2;
+  animation-name: creepy-fade1;
+  animation-duration: 10s;
+animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-timing-function: linear;
+}
+
+@keyframes creepy-fade1 {
+  0% {  transform: translateX(0px);   filter: blur(0px); }
+  20% {                   filter: blur(2px); }
+  40% {   transform: translateX(3px);   filter: blur(1px); }
+  50% {   transform: translateX(4px);   filter: blur(2px); }
+  70% {   transform: skewX(2deg);     filter: blur(0px); }
+  80% {                   filter: blur(0); }
+  100% {  transform: skewX(0deg); }
+}
+h2{
+  font-size:30px;
+  text-align:center;
+  padding:10px;
+   color: transparent;
+   text-shadow: 0 0 10px rgba(0,0,0,0.7);
+  -webkit-transition: color 10s ease-out;
+  -moz-transition:color 10s ease-out;
+  -o-transition: color 10s ease-out;
+  transition: color 10s ease-out;
+}
+
+a:link{
+  color:#ff7000;
+      -webkit-transition: color 10s ease-out;
+  -moz-transition:color 10s ease-out;
+  -o-transition: color 10s ease-out;
+  transition: color 10s ease-out;
+}
+
+a:hover{
+  color: transparent;
+   text-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+p:first-child {
+  text-align:center;
+  font-size:60px;
+  margin-top:-40px;
+   text-shadow: 0 2px rgba(0,0,0,0.9);
+}
+
+p:nth-child(2) {
+  font-size:30px;
+  text-align:center ;
+ text-shadow: 0 0 2px rgba(0,0,0,0.9);
+    color: transparent;
+   text-shadow: 0 0 2px rgba(0,0,0,0.9);
+}
+
+h3{
+  font-size:60px;
+  text-align:center;
+text-shadow: 1px 1px 1px #ff7000, 6px 1px 1px red;
+  color:#01a5a2;
+}
+
+p{
+  padding:30px
+}
+
+p:nth-child(3){
+  font-size:30px;
+  text-shadow: 1px -80px 1px #ff7000, 6px -40px 1px red;
+  background-color:#ff3503;
+    color:#0380ff;
+  transition: all 0.5s ease;
+      
+}
+
+p:nth-child(3):hover{
+  font-size:30px;
+    color:black;
+  text-shadow: 1px 1px 1px #000
+}
+
+p:nth-child(4){
+  font-size:30px;
+  text-shadow: 10px 90px 10px #ff7000, 20px 40px 91px red;
+  color:#ff7000;
+  opacity:1;
+  transition: all 1s ease-in;
+  animation-name: creepy-fade2;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-out;
+  
+}
+
+@keyframes creepy-fade2 {
+  0% {  transform: translateX(0px);   filter: blur(0px); }
+  5% {  transform: translateX(-100px);  filter: blur(5px); }
+  20% {   transform: translateX(-120px);  filter: blur(0px); }
+  60% {   transform: translateX(-130px);  filter: blur(2px); }
+  70% {                   filter: blur(50px); }
+  80% {                   filter: blur(30px); }
+  100% {  transform: translateX(0px);   filter: blur(0px); }
+}
+
+
+p:nth-child(4):hover{
+color:black;
+}
+
+nav{
+  text-align:center;
+}
+
+nav ul{
+  font-size:80px;
+  list-style-type: none;
+    text-shadow: 10px 90px 10px #ff7000, 20px 40px 91px red;
+  color:#ff7000;
+}
+
+
+
+.zen-translations,.zen-submit,.zen-faq,.view-css,.css-resources{
+  text-align: center;
+   font-size:80px;
+  list-style-type: none;
+    text-shadow: 10px 90px 10px #ff7000, 20px 40px 91px red;
+  color:#ff7000;
+}
+
+p:nth-child(4):hover{
+color:black;
+}
+
+
+p:nth-child(4):hover{
+color:black;
+}
+
+p:last-child{
+  text-align:center;
+  font-size:60px;
+  margin-top:-40px;
+  color:#ff7000; 
+   text-shadow: 2px 30px 1px #ff7000, 2px 100px 3px #0380ff;
+}
+
+.zen-validate-html,.zen-validate-css,.zen-license,.zen-accessibility,.zen-github{
+ font-size:100px;
+ display:table;
+ color:#ff7000;
+ text-align: center
+}
+
+a{
+   color:#ff7000; important!
+}
+
+p{
+  font-size:50px;
+  color:#ff7000;
+  text-shadow: 2px 30px 1px #ff7000, 2px 10px 30px #ff7000;
+}
+
+
+
+#zen-summary{
+   color:#01a5a2;
+}
+
+

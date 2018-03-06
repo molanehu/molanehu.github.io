@@ -14,6 +14,9 @@ body .static-header {
   margin: 20px auto;
   text-align: center;
 }
+
+
+
 body .static-header img {
   margin: 0 auto;
 }
@@ -152,12 +155,19 @@ body .container__content > div.section1 {
     padding-top: 30px;
 }
 
+body .container__content > div h1 {
+    padding-top: 140px;
+}
+
+
+
 body .static-header {
-    padding-top: 300px;
+padding-top: 300px;
     max-width: 900px;
     overflow: hidden;
     box-sizing: border-box;
-    margin: 20px auto;
+    margin: -30px auto;
+    padding-bottom: 50px;
     text-align: center;
 }
 
@@ -180,8 +190,13 @@ body .container__content > div #section4a {
     text-align: center;
     color: #666666;
     font-size: 18px;
-    padding-top: 160px;
+    padding-top: 60px;
     margin: 0;
+}
+
+body .container__content > div.section3 {
+    background: white;
+    padding-bottom: 90px;
 }
 
 

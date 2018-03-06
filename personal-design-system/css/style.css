@@ -123,7 +123,7 @@ body .container__content > div #part2a {
 body .container__content > div p {
   text-align: center;
   color: #666666;
-  font-size: 20px;
+  font-size: 1.3em;
 }
 body .container__content > div.section1 {
   background: white;
@@ -162,12 +162,11 @@ body .container__content > div h1 {
 
 
 body .static-header {
-padding-top: 300px;
+    padding-top: 300px;
     max-width: 900px;
     overflow: hidden;
     box-sizing: border-box;
-    margin: -30px auto;
-    padding-bottom: 50px;
+    margin: 20px auto;
     text-align: center;
 }
 

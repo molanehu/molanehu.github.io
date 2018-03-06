@@ -107,6 +107,16 @@ body .container__content > div #part2 {
   font-size: 18px;
   margin: 0;
 }
+
+
+body .container__content > div #part2a {
+  text-align: center;
+  padding-top: 10px;
+  color: #666666;
+  font-size: 18px;
+  margin: 0;
+}
+
 body .container__content > div p {
   text-align: center;
   color: #666666;
@@ -124,3 +134,63 @@ body .container__content > div.section3 {
 body .container__content > div.section4 {
   background: white;
 }
+
+
+
+
+@media (max-width: 375px){
+
+  body .fixed-header .fheader__container {
+    max-width: 900px;
+    padding: 15px 20px;
+    box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body .container__content > div.section1 {
+    background: white;
+    padding-top: 30px;
+}
+
+body .static-header {
+    padding-top: 300px;
+    max-width: 900px;
+    overflow: hidden;
+    box-sizing: border-box;
+    margin: 20px auto;
+    text-align: center;
+}
+
+body .static-header nav a {
+    padding-right: 0px;
+    line-height: 2.8;
+    margin: 0 auto
+}
+body .static-header nav {
+    padding: 20px 0 0;
+    max-width: 100px;
+    margin: 0 auto;
+}
+
+body .static-header nav a:not(:last-of-type) {
+    padding-right: 0px;
+}
+
+body .container__content > div #section4a {
+    text-align: center;
+    color: #666666;
+    font-size: 18px;
+    padding-top: 160px;
+    margin: 0;
+}
+
+
+
+
+
+}
+
+
+
+
+

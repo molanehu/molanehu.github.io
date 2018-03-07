@@ -1,0 +1,57 @@
+
+body{
+  padding-top:100px;
+  font-family:helvetica;
+  background-color:black;
+  text-align: center;
+  padding-bottom:100px;
+}
+h{
+  font-size:80px;
+  font-weight:bold;
+  margin:0 auto;
+  -webkit-animation-name: plan; 
+    animation-name: plan;
+    animation: plan 2s infinite;
+}
+
+
+@-webkit-keyframes plan {
+    0%   {color: red;}
+    100%  {color: yellow;}
+}
+
+@keyframes plan {
+    0%   {color: red;}
+    100%  {color: yellow;}
+}
+
+
+
+
+
+
+p{
+  font-size:30px;
+  font-weight:bold;
+  margin:0 auto;
+  color:white
+}
+
+
+
+.back{
+  padding:100px;
+  color:purple;
+  font-size:25px
+}
+
+a {
+  text-decoration:none
+}
+
+.back:hover{
+  color:blue
+}
+
+

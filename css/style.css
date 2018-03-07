@@ -5,7 +5,7 @@ body{
 	color:white;
 }
 
-h1{
+#topic{
 	font-size: 30pt;
 	position: absolute;
 	top:350px;
@@ -28,3 +28,88 @@ img{
 	height:300px;
 	width: 450px;
 }
+
+.gallery{
+	color:white;
+	text-decoration: none;
+	font-size:25px;
+    position: relative;
+    top:490px;
+    left:500px;
+}
+
+
+h3{
+	opacity: 0.7
+}
+a{
+	text-decoration: none;
+}
+
+h3:hover { 
+  color:red;
+  text-decoration: line-through;
+}
+
+.poster{
+	color:white;
+	text-decoration: none;
+	font-size:25px;
+    position: relative;
+    top:290px;
+    left:360px;
+}
+
+.poster2{
+	color:white;
+	text-decoration: none;
+	font-size:25px;
+    position: relative;
+    top:290px;
+    left:360px;
+}
+
+
+.cri{
+	color:white;
+	text-decoration: none;
+	font-size:25px;
+    position: relative;
+    top:40px;
+    left:440px;
+}
+
+
+.res{
+	color:white;
+	text-decoration: none;
+	font-size:25px;
+    position: relative;
+    top:-10px;
+    left:640px;
+}
+
+
+
+.per{
+	color:white;
+	text-decoration: none;
+	font-size:25px;
+    position: relative;
+    top:10px;
+    left:720px;
+}
+
+.typeface{
+	color:white;
+	text-decoration: none;
+	font-size:25px;
+    position: relative;
+    top:140px;
+    left:700px;
+}
+
+
+
+
+

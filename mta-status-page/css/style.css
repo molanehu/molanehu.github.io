@@ -1,0 +1,159 @@
+
+body{
+  padding-top:100px;
+  font-family:helvetica;
+  background-color:black;
+  text-align: center;
+  padding-bottom:100px;
+}
+h{
+  font-size:80px;
+  font-weight:bold;
+  margin:0 auto;
+  color:white
+}
+
+.lines{
+  padding-top:100px;
+  display:table;
+  margin: 0 auto;
+}
+
+li{
+  color:white;
+  width: 100px;
+	height: 100px;
+	background: red;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+  list-style:none;
+  display:block;
+	float: left;
+	list-style-type: none;
+    
+}
+
+ul {
+  display: inline;
+	text-align: center;
+  padding-left:5px
+}
+
+.header1{
+  color:white;
+    font-size:70px;
+-webkit-animation-name: plan; 
+    animation-name: plan;
+    animation: plan 2s infinite;
+}
+
+
+@-webkit-keyframes plan {
+    0%   {color: red;}
+    100%  {color: yellow;}
+}
+
+@keyframes plan {
+    0%   {color: red;}
+    100%  {color: yellow;}
+}
+
+
+
+
+
+
+
+
+
+
+
+.line1, .line2 , .line3, .line4, .line5,.line6,.line7{
+  font-size:65px;
+}
+
+li:hover{
+  background:black;
+  color:black
+}
+
+.line1:hover:after{
+  content:"Broadway-7 Av Local";
+    color:white;
+  font-size:15px;
+  text-align:center;
+  display:table
+}
+
+.line2:hover:after{
+  content:"7th Av Express";
+    color:white;
+  font-size:15px;
+  text-align:center;
+  display:table
+}
+
+
+.line3:hover:after{
+  content:"7th Av Express";
+    color:white;
+  font-size:15px;
+  text-align:center;
+  display:table
+}
+
+.line4:hover:after{
+  content:"Lexington Ave Express";
+    color:white;
+  font-size:15px;
+  text-align:center;
+  display:table
+}
+
+.line5:hover:after{
+  content:"Lexington Ave Express";
+    color:white;
+  font-size:15px;
+  text-align:center;
+  display:table
+}
+
+.line6:hover:after{
+  content:"Lexington Ave Loca/Pelham Express";
+    color:white;
+  font-size:15px;
+  text-align:center;
+  display:table
+}
+
+.line7:hover:after{
+  content:"Flushing Local";
+    color:white;
+  font-size:15px;
+  text-align:center;
+  display:table
+}
+
+
+.header2{
+  color:white;
+    font-size:70px;
+  padding-top:150px;
+}
+
+.planned-lines li{
+background: purple;
+}
+
+.delaylines ,.line4,.line5,.line6{
+  background:green
+}
+
+.planned-lines li:hover{
+  background:black
+}
+
+.header2:hover{
+  color:green
+}

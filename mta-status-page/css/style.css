@@ -160,6 +160,15 @@ background: purple;
 }
 
 
+a{
+  text-decoration:none
+}
+
+a:hover{
+  text-decoration:underline;
+  text-decoration-color: white
+}
+
 @media (max-width: 400px){
   li{
    margin-left:20px;

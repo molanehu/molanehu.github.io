@@ -6,6 +6,10 @@ body {
   box-sizing: border-box;
   background: white;
 }
+
+.nobr { white-space:nowrap; }
+
+
 body .static-header {
   padding-top: 30px;
   max-width: 900px;
@@ -156,7 +160,7 @@ body .container__content > div.section1 {
 }
 
 body .container__content > div h1 {
-    padding-top: 140px;
+    padding-top: 180px;
 }
 
 
@@ -189,7 +193,7 @@ body .container__content > div #section4a {
     text-align: center;
     color: #666666;
     font-size: 18px;
-    padding-top: 60px;
+    padding-top: 90px;
     margin: 0;
 }
 
@@ -198,8 +202,14 @@ body .container__content > div.section3 {
     padding-bottom: 90px;
 }
 
-
-
+p{
+  font-size: 18px !important;
+  widows: 3 !important;
+}
+#topic{
+  position: relative;
+  top:-30px;
+}
 
 
 }

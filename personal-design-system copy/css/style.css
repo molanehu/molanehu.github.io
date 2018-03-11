@@ -130,9 +130,16 @@ body .fixed-header .fheader__container nav #doubt:hover {
 
 
 
-#how, #sharing, #valuewords{
-  color:transparent;
+
+.section2 a:link {
+    color: transparent;
 }
+
+
+.section2 a:visited {
+    color: #B22222;
+}
+
 
 
 

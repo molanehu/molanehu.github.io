@@ -1,0 +1,193 @@
+$animationDuration: 30s;
+
+html {
+  background-color:white;
+  height: 100vh;
+}
+
+.loading {
+  background-color: white;
+  border-radius: 4px;
+  bottom: 30vh;
+  box-shadow: 0 0 5vmin rgba(0, 0, 0, 0.25);
+  font-family: sans-serif;
+  left: 20vw;
+  padding: 5vh 5vw;
+  position: absolute;
+  right: 20vw;
+  top: 30vh;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.bar {
+  background-color: #ccc;
+  height: 3vh;
+  margin: 7vh 0 1vh 0;
+  padding: 1vh;
+  position: relative;
+  width: 100%;
+}
+
+.bar:before {
+  animation: barWidth $animationDuration linear;
+  background-color: red;
+  bottom: 0;
+  content: "";
+  left: 0;
+  position: absolute;
+  top: 0;
+  transform: scale(0.99, 1);
+  transform-origin: left;
+  width: 100%;
+}
+
+.progress:before {
+  animation: progressTextChange $animationDuration linear;
+  content: "And, just hang here... forever";
+  float: left;
+}
+
+.progress:after {
+  animation: percentageChange $animationDuration linear;
+  content: "99%";
+  float: right;
+}
+
+@keyframes percentageChange {
+  0% {
+    content: "0%";
+  }
+  10% {
+    content: "1%";
+  }
+  20% {
+    content: "50%";
+  }
+  30% {
+    content: "5%";
+  }
+  40% {
+    content: "95%";
+  }
+  50% {
+    content: "1%";
+  }
+  60% {
+    content: "0%";
+  }
+  70% {
+    content: "99%";
+  }
+  80% {
+    content: "10%";
+  }
+  90% {
+    content: "90%";
+  }
+  100% {
+    content: "99%";
+  }
+}
+
+@keyframes progressTextChange {
+  0% {
+    content: "Estimating time remaining...";
+  }
+  10% {
+    content: "10 minutes remaining";
+  }
+  20% {
+    content: "52 seconds remaining";
+  }
+  30% {
+    content: "40 minutes remaining";
+  }
+  40% {
+    content: "5 seconds remaining";
+  }
+  50% {
+    content: "A couple of years?";
+  }
+  60% {
+    content: "Since you are waiting...Emmm..How is your midterm?";
+  }
+  70% {
+    content: "ohhh...Sooooo close...";
+  }
+  80% {
+    content: "Ok, back to my question: How is your midterm going";
+  }
+  90% {
+    content: "By the way, I don't really care about your answers";
+  }
+  100% {
+     : "And, just hang here... forever";
+  }
+}
+
+@keyframes barWidth {
+  0%,
+  9% {
+    transform: scale(0, 1);
+  }
+  10%,
+  19% {
+    transform: scale(0.01, 1);
+  }
+  20%,
+  29% {
+    transform: scale(0.5, 1);
+  }
+  30%,
+  39% {
+    transform: scale(0.05, 1);
+  }
+  40%,
+  49% {
+    transform: scale(0.95, 1);
+  }
+  50%,
+  59% {
+    transform: scale(0.01, 1);
+  }
+  60%,
+  69% {
+    transform: scale(0, 1);
+  }
+  70%,
+  79% {
+    transform: scale(0.99, 1);
+  }
+  80%,
+  89% {
+    transform: scale(0.1, 1);
+  }
+  90%,
+  99% {
+    transform: scale(0.9, 1);
+  }
+  100% {
+    transform: scale(0.99, 1);
+  }
+}
+
+h4{
+  font-family: 'Open Sans', sans-serif;
+position: relative;
+text-align: center;
+top:400px;
+opacity:0;
+  animation-delay:20s;
+   -webkit-animation: appear 3s infinite; 
+    -webkit-animation-delay: 60s;
+    animation: appear 3s infinite;
+    animation-delay: 60s;
+}
+
+@keyframes appear{
+  from { opacity: 0; }
+    to   { opacity: 1; }
+  
+}
+
+ 

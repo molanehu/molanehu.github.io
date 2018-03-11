@@ -130,6 +130,13 @@ body .fixed-header .fheader__container nav #doubt:hover {
 
 
 
+#how, #sharing, #valuewords{
+  color:transparent;
+}
+
+
+
+
 
 
 body .container__content {
@@ -193,6 +200,7 @@ body .container__content > div.section4 {
 
 
 @media (max-width: 375px){
+
 
   body .fixed-header .fheader__container {
     max-width: 900px;

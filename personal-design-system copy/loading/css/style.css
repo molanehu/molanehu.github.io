@@ -199,3 +199,24 @@ a{
   color:#333333;
   text-decoration: none
 }
+
+
+@media (max-width: 375px){
+  .loading{
+    padding-right: 8vw;
+    font-size: 28px
+  }
+
+  h4{
+    font-size: 28px
+  }
+}
+
+
+
+
+
+
+
+
+

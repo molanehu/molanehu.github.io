@@ -130,11 +130,9 @@ body .fixed-header .fheader__container nav #doubt:hover {
 
 
 
-
 #section2 a:link {
     color:transparent;
-    text-decoration: underline;
-        text-decoration-color:red;
+    text-decoration: none;
         -webkit-transition-delay: 10s; 
 transition-delay: 10s;
 -webkit-transition-duration: 5s;

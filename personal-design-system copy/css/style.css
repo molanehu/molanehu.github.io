@@ -131,20 +131,21 @@ body .fixed-header .fheader__container nav #doubt:hover {
 
 
 
-.section2 a {
-    color: white;
-    background-color: white;
-    opacity:0;
-    text-decoration: none;
+#section2 a:link {
+    color:transparent;
+    text-decoration: underline;
+        text-decoration-color:red;
+        -webkit-transition-delay: 10s; 
+transition-delay: 10s;
+-webkit-transition-duration: 5s;
+transition-duration: 5s;
 }
 
 
 
-.section2 a:visited {
-    color: #333333;
-    background-color: white;
-    opacity:1;
-    text-decoration: none;
+#section2 a:hover{
+  color:#333333;
+  text-decoration: none
 }
 
 

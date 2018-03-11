@@ -131,15 +131,21 @@ body .fixed-header .fheader__container nav #doubt:hover {
 
 
 
-.section2 a:link {
-    color: transparent;
+.section2 a {
+    color: white;
+    background-color: white;
+    opacity:0;
+    text-decoration: none;
 }
+
 
 
 .section2 a:visited {
-    color: #B22222;
+    color: #333333;
+    background-color: white;
+    opacity:1;
+    text-decoration: none;
 }
-
 
 
 

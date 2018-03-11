@@ -29,6 +29,7 @@ html {
 
 .bar:before {
   animation: barWidth 30s linear;
+  height: 4.9vh;
   background-color: red;
   bottom: 0;
   content: "";
@@ -174,8 +175,7 @@ h4 {
   text-align: center;
   bottom: 15vh;
     right: 20vw;
-  }
-  /*opacity: 0;
+  opacity: 0;
   animation-delay: 20s;
   -webkit-animation: appear 3s infinite;
   -webkit-animation-delay: 60s;
@@ -190,4 +190,12 @@ h4 {
   to {
     opacity: 1;
   }
-}*/
+}
+
+
+
+
+a{
+  color:#333333;
+  text-decoration: none
+}

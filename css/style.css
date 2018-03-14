@@ -118,5 +118,12 @@ h3:hover {
     left:700px;
 }
 
-
+.poem{
+	color:white;
+	text-decoration: none;
+	font-size:25px;
+    position: relative;
+    top:-40px;
+    left:700px;
+}
 

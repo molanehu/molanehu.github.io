@@ -1,0 +1,423 @@
+body{
+	background-color:#18a595;
+	margin:auto;
+}
+
+.all-wrap {
+	position: absolute;
+	left: 0;
+	right: 0;
+}
+
+#topic{
+	color:white;
+	position: relative;
+	text-align: center;
+    font-size: 100px;
+    top:370px;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.list-wrap{
+    position: relative;
+    text-align: center;
+    list-style: none;
+    top:-80px;
+    margin: auto;
+    display: block;
+    padding: inherit;
+}
+
+
+.list-wrap img{
+height: 230px;
+width:230px;
+}
+
+
+/*travel*/
+.list-wrap li:nth-child(1){
+    position: relative;
+    width: 300px;
+    top:30px;
+    left:190px;
+    display: inline-block;
+}
+
+/*exercise*/
+.list-wrap li:nth-child(2){
+	position: relative;
+	width:300px;
+	left:160px;
+	top:-20px;
+	display: inline-block;
+}
+
+/*rice*/
+.list-wrap li:nth-child(3){
+	position: relative;
+	width:300px;
+	top:20px;
+	left:140px;
+	display: inline-block;
+}
+
+/*housing*/
+.list-wrap li:nth-child(4){
+	position: relative;
+	width:300px;
+	top:170px;
+	left:50px;
+	display: inline-block;
+}
+/*branding*/
+.list-wrap li:nth-child(5){
+	position: relative;
+	width:300px;
+	left:-30px;
+	top:-70px;
+	display: inline-block;
+}
+
+/*contacting*/
+.list-wrap li:nth-child(6){
+	position: relative;
+	width:300px;
+	left:-320px;
+	top:140px;
+	display: inline-block;
+}
+/*news*/
+.list-wrap li:nth-child(7){
+	position: relative;
+	width:300px;
+	left:140px;
+	top:240px;
+	display: inline-block;
+}
+/*clothing*/
+.list-wrap li:nth-child(8){
+	position: relative;
+	width:300px;
+    top:130px;
+    left:40px;
+	display: inline-block;
+}
+/*psy*/
+.list-wrap li:nth-child(9){
+	position: relative;
+	width:300px;
+	 left:-100px;
+	display: inline-block;
+}
+
+/*testing*/
+.list-wrap li:nth-child(10){
+	position: relative;
+	width:300px;
+	top:20px;
+    left:-130px;
+	display: inline-block;
+}
+
+
+@media only screen and (max-width: 1217px) {
+
+/*travel*/
+.list-wrap li:nth-child(1){
+    position: relative;
+    width: 300px;
+    left:-120px;
+    display: inline-block;
+}
+
+/*exercise*/
+.list-wrap li:nth-child(2){
+	position: relative;
+	width:300px;
+	left:-210px;
+	top:30px;
+	display: inline-block;
+}
+
+/*rice*/
+.list-wrap li:nth-child(3){
+	position: relative;
+	width:300px;
+	display: inline-block;
+}
+
+/*housing*/
+.list-wrap li:nth-child(4){
+	position: relative;
+	width:300px;
+	top:250px;
+	left:-110px;
+	display: inline-block;
+}
+/*branding*/
+.list-wrap li:nth-child(5){
+	position: relative;
+	width:300px;
+	top:-220px;
+	left:20px;
+	display: inline-block;
+}
+
+/*contacting*/
+.list-wrap li:nth-child(6){
+	position: relative;
+	width:300px;
+	top:-220px;
+	left:-70px;
+	display: inline-block;
+}
+/*news*/
+.list-wrap li:nth-child(7){
+	position: relative;
+	width:300px;
+	top:5px;
+	left:100px;
+	display: inline-block;
+}
+/*clothing*/
+.list-wrap li:nth-child(8){
+	position: relative;
+	width:300px;
+	top:-10px;
+	left:440px;
+	display: inline-block;
+}
+/*psy*/
+.list-wrap li:nth-child(9){
+	position: relative;
+	width:300px;
+	top:10px;
+	left:-80px;
+	display: inline-block;
+}
+
+/*testing*/
+.list-wrap li:nth-child(10){
+	position: relative;
+	width:300px;
+	top:-240px;
+	left:10px;
+	display: inline-block;
+}
+
+}
+
+
+@media only screen and (max-width: 912px) {
+   
+
+/*travel*/
+.list-wrap li:nth-child(1){
+    position: relative;
+    width: 300px;
+    left:-100px;
+    display: inline-block;
+}
+
+/*exercise*/
+.list-wrap li:nth-child(2){
+	position: relative;
+	width:300px;
+	left:-130px;
+	top:30px;
+	display: inline-block;
+}
+
+/*rice*/
+.list-wrap li:nth-child(3){
+	position: relative;
+	width:300px;
+	top:-200px;
+	left:450px;
+	display: inline-block;
+}
+
+/*housing*/
+.list-wrap li:nth-child(4){
+	position: relative;
+	width:300px;
+	top:260px;
+	left:-110px;
+	display: inline-block;
+}
+/*branding*/
+.list-wrap li:nth-child(5){
+	position: relative;
+	width:300px;
+	top:20px;
+	left:-90px;
+	display: inline-block;
+}
+
+/*contacting*/
+.list-wrap li:nth-child(6){
+	position: relative;
+	width:300px;
+	top:20px;
+	left:160px;
+	display: inline-block;
+}
+/*news*/
+.list-wrap li:nth-child(7){
+	position: relative;
+	width:300px;
+	top:5px;
+	left:60px;
+	display: inline-block;
+}
+/*clothing*/
+.list-wrap li:nth-child(8){
+	position: relative;
+	width:300px;
+	top:240px;
+	left:10px;
+	display: inline-block;
+}
+/*psy*/
+.list-wrap li:nth-child(9){
+	position: relative;
+	width:300px;
+	top:10px;
+	left:60px;
+	display: inline-block;
+}
+
+/*testing*/
+.list-wrap li:nth-child(10){
+	position: relative;
+	width:300px;
+	top:-240px;
+	left:10px;
+	display: inline-block;
+}
+
+
+
+}
+
+
+
+
+@media only screen and (max-width: 586px) {
+   
+
+/*travel*/
+.list-wrap li:nth-child(1){
+    position: relative;
+    width: 300px;
+    left:-100px;
+    top:480px;
+    display: inline-block;
+}
+
+/*exercise*/
+.list-wrap li:nth-child(2){
+	position: relative;
+	width:300px;
+	left:150px;
+	top:230px;
+	display: inline-block;
+}
+
+/*rice*/
+.list-wrap li:nth-child(3){
+	position: relative;
+	width:300px;
+	top:250px;
+	left:-100px;
+	display: inline-block;
+}
+
+/*housing*/
+.list-wrap li:nth-child(4){
+	position: relative;
+	width:300px;
+	top:260px;
+	left:-110px;
+	display: inline-block;
+}
+/*branding*/
+.list-wrap li:nth-child(5){
+	position: relative;
+	width:300px;
+	top:-240px;
+	left:170px;
+	display: inline-block;
+}
+
+/*contacting*/
+.list-wrap li:nth-child(6){
+	position: relative;
+	width:300px;
+	top:-220px;
+	left:160px;
+	display: inline-block;
+}
+/*news*/
+.list-wrap li:nth-child(7){
+	position: relative;
+	width:300px;
+	top:-190px;
+	left:-120px;
+	display: inline-block;
+}
+/*clothing*/
+.list-wrap li:nth-child(8){
+	position: relative;
+	width:300px;
+	top:-450px;
+	left:180px;
+	display: inline-block;
+}
+/*psy*/
+.list-wrap li:nth-child(9){
+	position: relative;
+	width:300px;
+	top:-350px;
+	left:-100px;
+	display: inline-block;
+}
+
+/*testing*/
+.list-wrap li:nth-child(10){
+	position: relative;
+	width:300px;
+	top:-600px;
+	left:180px;
+	display: inline-block;
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+/*.travel{
+	width: 400px;
+	height: 400px;
+	position: relative;
+	 -webkit-transition: -webkit-transform .8s ease-in-out;
+          transition: transform .8s ease-in-out;
+}
+.travel:hover{
+  opacity: 0.3;
+    -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+  
+}
+*/

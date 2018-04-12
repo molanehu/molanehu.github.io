@@ -6,6 +6,12 @@
 .headers ul li:first-child{margin-left: 0;}
 .headers ul li a{color: white;font-family: "宋体";}
 .counters{width: 100%;overflow: hidden;}
+.counter li img:hover{ 
+  animation-name: swing;
+  animation-duration: 1s;}
+
+ 
+
 .counters .ys{font-size: 40px;color: white;text-align: center;line-height: 105px;font-family: "宋体";}
 .counters .font{font-size: 55px;color: white;text-align: center;font-family: "宋体";}
 .counters .lis{overflow: hidden;width: 82.55208%;margin: 0 auto;}
@@ -46,7 +52,7 @@
 .counter h1{font-size: 124px;color: white;position: absolute;left: 43.0569948%;top: 480px;font-family: "宋体";}
 .counter ul{overflow: hidden;}
 .counter ul li{overflow: hidden;position: absolute;font-family: "宋体";}
-.counter ul li p{font-size: 20px;color: white;text-align: center;font-family: "宋体";}
+.counter ul li p{font-size: 20px;color: white;text-align: center;font-family: "宋体";position: relative; top:15px;}
 .counter ul .on{width: 300px;overflow: hidden;left: 41.7291%;top: 28px;}
 .counter ul .on p{text-align: center;font-size: 19px;color: white;font-family: "宋体";}
 .counter ul .on img{width: 100%;}

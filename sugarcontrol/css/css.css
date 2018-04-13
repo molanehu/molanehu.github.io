@@ -2,7 +2,7 @@
 .counter{position: relative;width: 100%;}
 .headers{width: 69.21857%;overflow: hidden;margin: 0 auto;border-top: 4px solid white;border-bottom: 4px solid white;margin-top: 100px;}
 .headers ul{overflow: hidden;}
-.headers ul li{float: left;font-size: 36px;color: white;line-height: 73px;width: 10%;text-align: center;font-family: "宋体";}
+.headers ul li{float: left;font-size: 24px;color: white;line-height: 73px;width: 10%;text-align: center;font-family: "宋体";}
 .headers ul li:first-child{margin-left: 0;}
 .headers ul li a{color: white;font-family: "宋体";}
 .counters{width: 100%;overflow: hidden;}
@@ -12,7 +12,7 @@
 
  
 
-.counters .ys{font-size: 40px;color: white;text-align: center;line-height: 105px;font-family: "宋体";}
+.counters .ys{font-size: 40px;color: white;text-align: center;line-height: 205px;font-family: "宋体";}
 .counters .font{font-size: 55px;color: white;text-align: center;font-family: "宋体";}
 .counters .lis{overflow: hidden;width: 82.55208%;margin: 0 auto;}
 .counters .lis li{width: 100%;overflow: hidden;padding: 10px 86px 18px 25px;box-sizing: border-box;background: #F19844;margin-top: 100px;font-family: "宋体";}
@@ -34,7 +34,36 @@
 .counters .lis2 li .logo img{width: 60%;display: block;margin: 0 auto;}
 .counters .lis2 li .logo p{font-size: 27px;color: white;text-align: center;line-height: 67px;font-family: "宋体";}
 .counters .lis2 li h1{width: 68.09148%;float: right;font-size: 22px;color: white;line-height: 40px;font-family: "宋体";}
-.cens{width: 672px;display: block;margin: 0 auto;}
+
+.counters .lis3{overflow: hidden;width: 82.55208%;margin: 0 auto;}
+.counters .lis3 li{width: 100%;overflow: hidden;padding: 10px 86px 18px 25px;box-sizing: border-box;background: #e0808a;margin-top: 100px;font-family: "宋体";}
+.counters .lis3 li .logo{width: calc(100% - 68.09148%);overflow: hidden;float: left;}
+.counters .lis3 li .logo img{width: 60%;display: block;margin: 0 auto;}
+.counters .lis3 li .logo p{font-size: 27px;color: white;text-align: center;line-height: 67px;font-family: "宋体";}
+.counters .lis3 li h1{width: 68.09148%;float: right;font-size: 22px;color: white;line-height: 40px;font-family: "宋体";}
+
+.counters .lis4{overflow: hidden;width: 82.55208%;margin: 0 auto;}
+.counters .lis4 li{width: 100%;overflow: hidden;padding: 10px 86px 18px 25px;box-sizing: border-box;background: #795697;margin-top: 100px;font-family: "宋体";}
+.counters .lis4 li .logo{width: calc(100% - 68.09148%);overflow: hidden;float: left;}
+.counters .lis4 li .logo img{width: 60%;display: block;margin: 0 auto;}
+.counters .lis4 li .logo p{font-size: 27px;color: white;text-align: center;line-height: 67px;font-family: "宋体";}
+.counters .lis4 li h1{width: 68.09148%;float: right;font-size: 22px;color: white;line-height: 40px;font-family: "宋体";}
+
+.counters .lis5{overflow: hidden;width: 82.55208%;margin: 0 auto;}
+.counters .lis5 li{width: 100%;overflow: hidden;padding: 10px 86px 18px 25px;box-sizing: border-box;background: #e39a80;margin-top: 100px;font-family: "宋体";}
+.counters .lis5 li .logo{width: calc(100% - 68.09148%);overflow: hidden;float: left;}
+.counters .lis5 li .logo img{width: 60%;display: block;margin: 0 auto;}
+.counters .lis5 li .logo p{font-size: 27px;color: white;text-align: center;line-height: 67px;font-family: "宋体";}
+.counters .lis5 li h1{width: 68.09148%;float: right;font-size: 22px;color: white;line-height: 40px;font-family: "宋体";}
+
+.counters .lis6{overflow: hidden;width: 82.55208%;margin: 0 auto;}
+.counters .lis6 li{width: 100%;overflow: hidden;padding: 10px 86px 18px 25px;box-sizing: border-box;background: #d2674d;margin-top: 100px;font-family: "宋体";}
+.counters .lis6 li .logo{width: calc(100% - 68.09148%);overflow: hidden;float: left;}
+.counters .lis6 li .logo img{width: 60%;display: block;margin: 0 auto;}
+.counters .lis6 li .logo p{font-size: 27px;color: white;text-align: center;line-height: 67px;font-family: "宋体";}
+.counters .lis6 li h1{width: 68.09148%;float: right;font-size: 22px;color: white;line-height: 40px;font-family: "宋体";}
+
+.cens{width: 672px;display: block;margin: 0 auto;position: relative;top:-100px;}
 .nth{width: 82.55208%;overflow: hidden;margin: 0 auto;}
 .nth li{overflow: hidden;margin-bottom: 50px;font-family: "宋体";}
 .nth li img{width: 255px;display: block;margin: 0 auto;height: 222px;}
@@ -42,10 +71,15 @@
 .nth li h1{text-align: center;font-size: 35px;color: white;line-height: 125px;font-family: "宋体";}
 .fot{width: 82.55208%;overflow: hidden;margin: 0 auto;margin-top: 50px;padding-bottom: 100px;box-sizing: border-box;}
 .fot span{display: block;font-size: 42px;color: white;position: absolute;right: 580px;top: 0;font-family: "宋体";}
-.fot img{width: 255px;overflow: hidden;display: block;margin: 0 auto;margin-bottom: 30px;}
+.fot img{width: 455px;overflow: hidden;display: block;margin: 0 auto;margin-bottom: 30px;}
 .fot p{font-size: 22px;color: white;line-height: 40px;position: relative;text-align: center;font-family: "宋体";}
 
-.h2{font-size: 53px;color: white;line-height: 89px;margin: 160px 0;text-align: center;font-family: "宋体";}
+h2{font-size: 33px;color: white;line-height: 89px;margin: 160px 0;text-align: center;font-family: "宋体";}
+h1{text-align: center;font-size: 35px;color: white;line-height: 125px;font-family: "宋体"}
+.backtotop{color:white;opacity:0.6;line-height: 89px;margin: 160px 0;text-align: center;font-family: "宋体";margin: auto}
+
+
+
 @media (min-width: 1200px) {
 
 }
@@ -89,6 +123,9 @@
 .counter ul .col p{text-align: center;font-size: 19px;color: white;font-family: "宋体";}
 .counter ul .col img{width: 100%;}
 
+
+
+
 @media (max-width: 1208px) {
 	.counter h1{font-size: .78rem;color: white;position: absolute;left: 2.94rem;top: 3.3rem;}
 .counter ul{overflow: hidden;}
@@ -130,6 +167,12 @@
 .counter ul .col{width: 1.6rem;overflow: hidden;left: .86rem;top: 1.26rem;}
 .counter ul .col p{text-align: center;font-size: .14rem;color: white;font-family: "宋体";}
 .counter ul .col img{width: 100%;}
+
+
+
+
+
+
 }
 @media (max-width: 414px) {
 	.counter{position: relative;width: 100%;height: 1200px;overflow: hidden;}
@@ -197,12 +240,12 @@
 .nth{width: 100%;overflow: hidden;margin: 0 auto;}
 .nth li{overflow: hidden;width: 6.59rem;margin: 0 auto;margin-bottom: 1.21rem;}
 .nth li img{width: 2.22rem;display: block;margin: 0 auto;height: 1.84rem;}
-.nth li p{font-size: .32rem;color: white;line-height: .64rem;width: 3.75rem;}
+.nth li p{font-size: .32rem;color: white;line-height: .64rem;width: 3.75rem;text-align: left}
 .nth li h1{text-align: center;font-size: .34rem;color: white;line-height: .64rem;font-weight: bold;margin-bottom: .5rem;}
 .fot{width: 6.56rem;overflow: hidden;margin: 0 auto;margin-top: 3.4rem;}
 .fot span{display: block;font-size: .23rem;color: white;position: absolute;right: 580px;top: 0;}
-.fot img{width: 2.12rem;overflow: hidden;display: block;margin: 0 auto;}
-.fot p{font-size: .32rem;color: white;line-height: .64rem;position: relative;}
+.fot img{width: 5.12rem;overflow: hidden;display: block;margin: 0 auto;}
+.fot p{font-size: .32rem;color: white;line-height: .64rem;position: relative; text-align: left}
 
 .counters .lis1{overflow: hidden;width: 6.55rem;margin: 0 auto;}
 .counters .lis1 li{width: 100%;overflow: hidden;padding: .4rem .13rem .28rem .13rem;box-sizing: border-box;background: #5B80BD;margin-top: .6rem;}
@@ -217,4 +260,35 @@
 .counters .lis2 li .logo img{width: 1.72rem;display: block;margin: 0 auto;}
 .counters .lis2 li .logo p{font-size: .23rem;color: white;text-align: center;line-height: .6rem;}
 .counters .lis2 li h1{width: 100%;float: right;font-size: .28rem;color: white;line-height: .38rem;padding: .4rem .2rem;box-sizing: border-box;}
+
+.counters .lis3{overflow: hidden;width: 6.55rem;margin: 0 auto;}
+.counters .lis3 li{width: 100%;overflow: hidden;padding: .4rem .13rem .28rem .13rem;box-sizing: border-box;background: #e0808a;margin-top: .6rem;}
+.counters .lis3 li .logo{width: 100%;overflow: hidden;}
+.counters .lis3 li .logo img{width: 1.72rem;display: block;margin: 0 auto;}
+.counters .lis3 li .logo p{font-size: .23rem;color: white;text-align: center;line-height: .6rem;}
+.counters .lis3 li h1{width: 100%;float: right;font-size: .28rem;color: white;line-height: .38rem;padding: .4rem .2rem;box-sizing: border-box;}
+
+.counters .lis4{overflow: hidden;width: 6.55rem;margin: 0 auto;}
+.counters .lis4 li{width: 100%;overflow: hidden;padding: .4rem .13rem .28rem .13rem;box-sizing: border-box;background: #795697;margin-top: .6rem;}
+.counters .lis4 li .logo{width: 100%;overflow: hidden;}
+.counters .lis4 li .logo img{width: 1.72rem;display: block;margin: 0 auto;}
+.counters .lis4 li .logo p{font-size: .23rem;color: white;text-align: center;line-height: .6rem;}
+.counters .lis4 li h1{width: 100%;float: right;font-size: .28rem;color: white;line-height: .38rem;padding: .4rem .2rem;box-sizing: border-box;}
+
+.counters .lis5{overflow: hidden;width: 6.55rem;margin: 0 auto;}
+.counters .lis5 li{width: 100%;overflow: hidden;padding: .4rem .13rem .28rem .13rem;box-sizing: border-box;background: #e39a80;margin-top: .6rem;}
+.counters .lis5 li .logo{width: 100%;overflow: hidden;}
+.counters .lis5 li .logo img{width: 1.72rem;display: block;margin: 0 auto;}
+.counters .lis5 li .logo p{font-size: .23rem;color: white;text-align: center;line-height: .6rem;}
+.counters .lis5 li h1{width: 100%;float: right;font-size: .28rem;color: white;line-height: .38rem;padding: .4rem .2rem;box-sizing: border-box;}
+
+.counters .lis6{overflow: hidden;width: 6.55rem;margin: 0 auto;}
+.counters .lis6 li{width: 100%;overflow: hidden;padding: .4rem .13rem .28rem .13rem;box-sizing: border-box;background: #d2674d;margin-top: .6rem;}
+.counters .lis6 li .logo{width: 100%;overflow: hidden;}
+.counters .lis6 li .logo img{width: 1.72rem;display: block;margin: 0 auto;}
+.counters .lis6 li .logo p{font-size: .23rem;color: white;text-align: center;line-height: .6rem;}
+.counters .lis6 li h1{width: 100%;float: right;font-size: .28rem;color: white;line-height: .38rem;padding: .4rem .2rem;box-sizing: border-box;}
+
+
+
 }

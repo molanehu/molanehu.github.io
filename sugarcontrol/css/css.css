@@ -9,6 +9,7 @@
 .counter li img:hover{ 
   animation-name: swing;
   animation-duration: 1s;}
+#med{text-align: center !important}
 
  
 
@@ -63,11 +64,25 @@
 .counters .lis6 li .logo p{font-size: 27px;color: white;text-align: center;line-height: 67px;font-family: "宋体";}
 .counters .lis6 li h1{width: 68.09148%;float: right;font-size: 22px;color: white;line-height: 40px;font-family: "宋体";}
 
+.counters .lis7{overflow: hidden;width: 82.55208%;margin: 0 auto;}
+.counters .lis7 li{width: 100%;overflow: hidden;padding: 10px 86px 18px 25px;box-sizing: border-box;background: #6ec4c2;margin-top: 100px;font-family: "宋体";}
+.counters .lis7 li .logo{width: calc(100% - 68.09148%);overflow: hidden;float: left;}
+.counters .lis7 li .logo img{width: 60%;display: block;margin: 0 auto;}
+.counters .lis7 li .logo p{font-size: 27px;color: white;text-align: center;line-height: 67px;font-family: "宋体";}
+.counters .lis7 li h1{width: 68.09148%;float: right;font-size: 22px;color: white;line-height: 40px;font-family: "宋体";}
+
+.counters .lis8{overflow: hidden;width: 82.55208%;margin: 0 auto;}
+.counters .lis8 li{width: 100%;overflow: hidden;padding: 10px 86px 18px 25px;box-sizing: border-box;background: #7CB2D9;margin-top: 100px;font-family: "宋体";}
+.counters .lis8 li .logo{width: calc(100% - 68.09148%);overflow: hidden;float: left;}
+.counters .lis8 li .logo img{width: 60%;display: block;margin: 0 auto;}
+.counters .lis8 li .logo p{font-size: 27px;color: white;text-align: center;line-height: 67px;font-family: "宋体";}
+.counters .lis8 li h1{width: 68.09148%;float: right;font-size: 22px;color: white;line-height: 40px;font-family: "宋体";}
+
 .cens{width: 672px;display: block;margin: 0 auto;position: relative;top:-100px;}
 .nth{width: 82.55208%;overflow: hidden;margin: 0 auto;}
 .nth li{overflow: hidden;margin-bottom: 50px;font-family: "宋体";}
 .nth li img{width: 255px;display: block;margin: 0 auto;height: 222px;}
-.nth li p{font-size: 22px;color: white;line-height: 40px;text-align: center;width: 100%;margin: 0 auto;font-family: "宋体";}
+.nth li p{font-size: 22px;color: white;line-height: 40px;text-align: left;width: 100%;margin: 0 auto;font-family: "宋体";}
 .nth li h1{text-align: center;font-size: 35px;color: white;line-height: 125px;font-family: "宋体";}
 .fot{width: 82.55208%;overflow: hidden;margin: 0 auto;margin-top: 50px;padding-bottom: 100px;box-sizing: border-box;}
 .fot span{display: block;font-size: 42px;color: white;position: absolute;right: 580px;top: 0;font-family: "宋体";}
@@ -289,6 +304,18 @@ h1{text-align: center;font-size: 35px;color: white;line-height: 125px;font-famil
 .counters .lis6 li .logo p{font-size: .23rem;color: white;text-align: center;line-height: .6rem;}
 .counters .lis6 li h1{width: 100%;float: right;font-size: .28rem;color: white;line-height: .38rem;padding: .4rem .2rem;box-sizing: border-box;}
 
+.counters .lis7{overflow: hidden;width: 6.55rem;margin: 0 auto;}
+.counters .lis7 li{width: 100%;overflow: hidden;padding: .4rem .13rem .28rem .13rem;box-sizing: border-box;background: #6ec4c2;margin-top: .6rem;}
+.counters .lis7 li .logo{width: 100%;overflow: hidden;}
+.counters .lis7 li .logo img{width: 1.72rem;display: block;margin: 0 auto;}
+.counters .lis7 li .logo p{font-size: .23rem;color: white;text-align: center;line-height: .6rem;}
+.counters .lis7 li h1{width: 100%;float: right;font-size: .28rem;color: white;line-height: .38rem;padding: .4rem .2rem;box-sizing: border-box;}
 
+.counters .lis8{overflow: hidden;width: 6.55rem;margin: 0 auto;}
+.counters .lis8 li{width: 100%;overflow: hidden;padding: .4rem .13rem .28rem .13rem;box-sizing: border-box;background: #7CB2D9;margin-top: .6rem;}
+.counters .lis8 li .logo{width: 100%;overflow: hidden;}
+.counters .lis8 li .logo img{width: 1.72rem;display: block;margin: 0 auto;}
+.counters .lis8 li .logo p{font-size: .23rem;color: white;text-align: center;line-height: .6rem;}
+.counters .lis8 li h1{width: 100%;float: right;font-size: .28rem;color: white;line-height: .38rem;padding: .4rem .2rem;box-sizing: border-box;}
 
 }

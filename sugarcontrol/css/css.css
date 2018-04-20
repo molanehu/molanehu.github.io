@@ -92,7 +92,11 @@
 h2{font-size: 33px;color: white;line-height: 89px;margin: 160px 0;text-align: center;font-family: "宋体";}
 h1{text-align: center;font-size: 35px;color: white;line-height: 125px;font-family: "宋体"}
 .backtotop{color:white;opacity:0.6;line-height: 89px;margin: 160px 0;text-align: center;font-family: "宋体";margin: auto}
-
+#back{color:white; position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 30px;
+    background: rgba(255,255,255,0.3)}
 
 
 @media (min-width: 1200px) {

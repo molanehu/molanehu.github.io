@@ -1,0 +1,25 @@
+body{
+  margin-top:100px;
+  text-align:center;
+  font-family:
+    helvetica;
+  font-size:20px;
+  padding-top:20px;
+  background-image:url(https://www.wallpaperflare.com/static/254/931/710/paint-palette-brush-artist-wallpaper-preview.jpg);
+background-repeat: no-repeat;
+  background-size:1400px;
+    color:white
+}
+
+h{
+  font-size:50px;
+  color:white
+}
+
+
+
+.hi{
+  background-color:rgba(0,0,0,0.5);
+ padding-bottom:10px
+}
+

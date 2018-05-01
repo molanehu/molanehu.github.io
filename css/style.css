@@ -147,6 +147,24 @@ h3:hover {
 
 }
 
+.arr{
+	color:white;
+	text-decoration: none;
+	font-size:25px;
+    position: relative;
+    top:-120px;
+    left:400px;
+
+}
 
 
+.wf{
+	color:white;
+	text-decoration: none;
+	font-size:25px;
+    position: relative;
+    top:-120px;
+    left:900px;
+
+}
 

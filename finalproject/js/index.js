@@ -20,9 +20,10 @@ $(".submit").click(function() {
   
   if ((n1 >= n2)&&(n1 >= n3)&&(n1 >= n4)) {
 $( "span" ).html("You are RED");
-$( "body").css("background-color","RED"); 
+$( "body").css("background-color","#ED2939"); 
 $( "h1" ).html("You are:");  
-$( "h3").css("color","white");               
+$( "h3").css("color","white"); 
+$( "h3").css("font-size","2em");               
 $(".images").attr("src","https://image.flaticon.com/icons/svg/201/201691.svg");
 $(".box a,.box b,.box c,.box d").css("box-shadow","4px 4px 4px  transparent");
 $( ".selected" ).css("background-color","transparent");  
@@ -39,9 +40,10 @@ $( ".refresh" ).css("opacity","1")
   
   if ((n2 > n1)&&(n2 >= n3)&&(n2 >= n4)) {
 $( "span" ).html("You are ORGANGE");
-$( "body").css("background-color","orange"); 
+$( "body").css("background-color","#FD6A02"); 
 $( "h1" ).html("You are:");  
-$( "h3").css("color","white");             
+$( "h3").css("color","white"); 
+$( "h3").css("font-size","2em");             
 $(".images").attr("src","https://image.flaticon.com/icons/svg/203/203262.svg");
 $(".box a,.box b,.box c,.box d").css("box-shadow","4px 4px 4px  transparent");
 $( ".selected" ).css("background-color","transparent");  
@@ -61,7 +63,8 @@ $( ".refresh" ).css("opacity","1")
 $( "span" ).html("You are GREEN");
 $( "body").css("background-color","green"); 
 $( "h1" ).html("You are:");  
-$( "h3").css("color","white");             
+$( "h3").css("color","white"); 
+$( "h3").css("font-size","2em");             
 $(".images").attr("src","https://image.flaticon.com/icons/svg/201/201705.svg");
 $(".box a,.box b,.box c,.box d").css("box-shadow","4px 4px 4px  transparent");
 $( ".selected" ).css("background-color","transparent");  
@@ -79,7 +82,8 @@ $( ".refresh" ).css("opacity","1")
 $( "span" ).html("You are BLUE");
 $( "body").css("background-color","#008ECC"); 
 $( "h1" ).html("You are:");  
-$( "h3").css("color","white");             
+$( "h3").css("color","white"); 
+$( "h3").css("font-size","2em");             
 $(".images").attr("src","https://image.flaticon.com/icons/svg/680/680942.svg");
 $(".box a,.box b,.box c,.box d").css("box-shadow","4px 4px 4px  transparent");
 $( ".selected" ).css("background-color","transparent");  

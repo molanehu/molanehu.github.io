@@ -1,0 +1,340 @@
+*{font-family: "宋体";}
+.counter{position: relative;width: 100%;}
+.headers{width: 69.21857%;overflow: hidden;margin: 0 auto;border-top: 4px solid white;border-bottom: 4px solid white;margin-top: 100px;}
+.headers ul{overflow: hidden;}
+.headers ul li{float: left;font-size: 24px;color: white;line-height: 73px;width: 10%;text-align: center;font-family: "宋体";}
+.headers ul li:first-child{margin-left: 0;}
+.headers ul li a{color: white;font-family: "宋体";}
+.counters{width: 100%;overflow: hidden;}
+.counter li img:hover{ 
+  animation-name: swing;
+  animation-duration: 1s;}
+#med{text-align: center !important}
+
+ 
+
+.counters .ys{font-size: 40px;color: white;text-align: center;line-height: 205px;font-family: "宋体";}
+.counters .font{font-size: 55px;color: white;text-align: center;font-family: "宋体";}
+.counters .lis{overflow: hidden;width: 82.55208%;margin: 0 auto;}
+.counters .lis li{width: 100%;overflow: hidden;padding: 10px 86px 18px 25px;box-sizing: border-box;background: #F19844;margin-top: 100px;font-family: "宋体";}
+.counters .lis li .logo{width: calc(100% - 68.09148%);overflow: hidden;float: left;}
+.counters .lis li .logo img{width: 60%;display: block;margin: 0 auto;}
+.counters .lis li .logo p{font-size: 27px;color: white;text-align: center;line-height: 67px;font-family: "宋体";}
+.counters .lis li h1{width: 68.09148%;float: right;font-size: 22px;color: white;line-height: 40px;font-family: "宋体";}
+
+.counters .lis1{overflow: hidden;width: 82.55208%;margin: 0 auto;}
+.counters .lis1 li{width: 100%;overflow: hidden;padding: 10px 86px 18px 25px;box-sizing: border-box;background: #5B80BD;margin-top: 100px;font-family: "宋体";}
+.counters .lis1 li .logo{width: calc(100% - 68.09148%);overflow: hidden;float: left;}
+.counters .lis1 li .logo img{width: 60%;display: block;margin: 0 auto;}
+.counters .lis1 li .logo p{font-size: 27px;color: white;text-align: center;line-height: 67px;font-family: "宋体";}
+.counters .lis1 li h1{width: 68.09148%;float: right;font-size: 22px;color: white;line-height: 40px;font-family: "宋体";}
+
+.counters .lis2{overflow: hidden;width: 82.55208%;margin: 0 auto;}
+.counters .lis2 li{width: 100%;overflow: hidden;padding: 10px 86px 18px 25px;box-sizing: border-box;background: #338E62;margin-top: 100px;font-family: "宋体";}
+.counters .lis2 li .logo{width: calc(100% - 68.09148%);overflow: hidden;float: left;}
+.counters .lis2 li .logo img{width: 60%;display: block;margin: 0 auto;}
+.counters .lis2 li .logo p{font-size: 27px;color: white;text-align: center;line-height: 67px;font-family: "宋体";}
+.counters .lis2 li h1{width: 68.09148%;float: right;font-size: 22px;color: white;line-height: 40px;font-family: "宋体";}
+
+.counters .lis3{overflow: hidden;width: 82.55208%;margin: 0 auto;}
+.counters .lis3 li{width: 100%;overflow: hidden;padding: 10px 86px 18px 25px;box-sizing: border-box;background: #e0808a;margin-top: 100px;font-family: "宋体";}
+.counters .lis3 li .logo{width: calc(100% - 68.09148%);overflow: hidden;float: left;}
+.counters .lis3 li .logo img{width: 60%;display: block;margin: 0 auto;}
+.counters .lis3 li .logo p{font-size: 27px;color: white;text-align: center;line-height: 67px;font-family: "宋体";}
+.counters .lis3 li h1{width: 68.09148%;float: right;font-size: 22px;color: white;line-height: 40px;font-family: "宋体";}
+
+.counters .lis4{overflow: hidden;width: 82.55208%;margin: 0 auto;}
+.counters .lis4 li{width: 100%;overflow: hidden;padding: 10px 86px 18px 25px;box-sizing: border-box;background: #795697;margin-top: 100px;font-family: "宋体";}
+.counters .lis4 li .logo{width: calc(100% - 68.09148%);overflow: hidden;float: left;}
+.counters .lis4 li .logo img{width: 60%;display: block;margin: 0 auto;}
+.counters .lis4 li .logo p{font-size: 27px;color: white;text-align: center;line-height: 67px;font-family: "宋体";}
+.counters .lis4 li h1{width: 68.09148%;float: right;font-size: 22px;color: white;line-height: 40px;font-family: "宋体";}
+
+.counters .lis5{overflow: hidden;width: 82.55208%;margin: 0 auto;}
+.counters .lis5 li{width: 100%;overflow: hidden;padding: 10px 86px 18px 25px;box-sizing: border-box;background: #e39a80;margin-top: 100px;font-family: "宋体";}
+.counters .lis5 li .logo{width: calc(100% - 68.09148%);overflow: hidden;float: left;}
+.counters .lis5 li .logo img{width: 60%;display: block;margin: 0 auto;}
+.counters .lis5 li .logo p{font-size: 27px;color: white;text-align: center;line-height: 67px;font-family: "宋体";}
+.counters .lis5 li h1{width: 68.09148%;float: right;font-size: 22px;color: white;line-height: 40px;font-family: "宋体";}
+
+.counters .lis6{overflow: hidden;width: 82.55208%;margin: 0 auto;}
+.counters .lis6 li{width: 100%;overflow: hidden;padding: 10px 86px 18px 25px;box-sizing: border-box;background: #d2674d;margin-top: 100px;font-family: "宋体";}
+.counters .lis6 li .logo{width: calc(100% - 68.09148%);overflow: hidden;float: left;}
+.counters .lis6 li .logo img{width: 60%;display: block;margin: 0 auto;}
+.counters .lis6 li .logo p{font-size: 27px;color: white;text-align: center;line-height: 67px;font-family: "宋体";}
+.counters .lis6 li h1{width: 68.09148%;float: right;font-size: 22px;color: white;line-height: 40px;font-family: "宋体";}
+
+.counters .lis7{overflow: hidden;width: 82.55208%;margin: 0 auto;}
+.counters .lis7 li{width: 100%;overflow: hidden;padding: 10px 86px 18px 25px;box-sizing: border-box;background: #6ec4c2;margin-top: 100px;font-family: "宋体";}
+.counters .lis7 li .logo{width: calc(100% - 68.09148%);overflow: hidden;float: left;}
+.counters .lis7 li .logo img{width: 60%;display: block;margin: 0 auto;}
+.counters .lis7 li .logo p{font-size: 27px;color: white;text-align: center;line-height: 67px;font-family: "宋体";}
+.counters .lis7 li h1{width: 68.09148%;float: right;font-size: 22px;color: white;line-height: 40px;font-family: "宋体";}
+
+.counters .lis8{overflow: hidden;width: 82.55208%;margin: 0 auto;}
+.counters .lis8 li{width: 100%;overflow: hidden;padding: 10px 86px 18px 25px;box-sizing: border-box;background: #7CB2D9;margin-top: 100px;font-family: "宋体";}
+.counters .lis8 li .logo{width: calc(100% - 68.09148%);overflow: hidden;float: left;}
+.counters .lis8 li .logo img{width: 60%;display: block;margin: 0 auto;}
+.counters .lis8 li .logo p{font-size: 27px;color: white;text-align: center;line-height: 67px;font-family: "宋体";}
+.counters .lis8 li h1{width: 68.09148%;float: right;font-size: 22px;color: white;line-height: 40px;font-family: "宋体";}
+
+.cens{width: 672px;display: block;margin: 0 auto;position: relative;top:-100px;}
+.nth{width: 82.55208%;overflow: hidden;margin: 0 auto;}
+.nth li{overflow: hidden;margin-bottom: 50px;font-family: "宋体";}
+.nth li img{width: 255px;display: block;margin: 0 auto;height: 222px;}
+.nth li p{font-size: 22px;color: white;line-height: 40px;text-align: left;width: 100%;margin: 0 auto;font-family: "宋体";}
+.nth li h1{text-align: center;font-size: 35px;color: white;line-height: 125px;font-family: "宋体";}
+.fot{width: 82.55208%;overflow: hidden;margin: 0 auto;margin-top: 50px;padding-bottom: 100px;box-sizing: border-box;}
+.fot span{display: block;font-size: 42px;color: white;position: absolute;right: 580px;top: 0;font-family: "宋体";}
+.fot img{width: 455px;overflow: hidden;display: block;margin: 0 auto;margin-bottom: 30px;}
+.fot p{font-size: 22px;color: white;line-height: 40px;position: relative;text-align: center;font-family: "宋体";}
+
+h2{font-size: 33px;color: white;line-height: 89px;margin: 160px 0;text-align: center;font-family: "宋体";}
+h1{text-align: center;font-size: 35px;color: white;line-height: 125px;font-family: "宋体"}
+.backtotop{color:white;opacity:0.6;line-height: 89px;margin: 160px 0;text-align: center;font-family: "宋体";margin: auto}
+#back{color:white; 
+    width: 60px;
+    margin:0 auto;
+    background: rgba(255,255,255,0.3);
+    margin-bottom:50px;}
+
+    .form{
+    height: 150px;
+    width: 100%;
+    text-align: center;
+    padding: 0px 20px;
+    }
+
+    #form{
+        padding-top: 20px
+    }
+
+    #email{
+        margin: 0 auto
+    }
+
+
+@media (min-width: 1200px) {
+
+}
+.counter h1{font-size: 124px;color: white;position: absolute;left: 43.0569948%;top: 480px;font-family: "宋体";}
+.counter ul{overflow: hidden;}
+.counter ul li{overflow: hidden;position: absolute;font-family: "宋体";}
+.counter ul li p{font-size: 20px;color: white;text-align: center;font-family: "宋体";position: relative; top:15px;}
+.counter ul .on{width: 300px;overflow: hidden;left: 41.7291%;top: 28px;}
+.counter ul .on p{text-align: center;font-size: 19px;color: white;font-family: "宋体";}
+.counter ul .on img{width: 100%;}
+.counter ul .tw{width: 300px;overflow: hidden;left: 59.90625%;top: 84px;}
+.counter ul .tw p{text-align: center;font-size: 19px;color: white;font-family: "宋体";}
+.counter ul .tw img{width: 100%;}
+.counter ul .cw{width: 300px;overflow: hidden;left: 75.2746%;top: 275px;}
+.counter ul .cw p{text-align: center;font-size: 19px;color: white;font-family: "宋体";}
+.counter ul .cw img{width: 100%;}
+
+.counter ul .fw{width: 300px;overflow: hidden;left: 75.2746%;top: 610px;}
+.counter ul .fw p{text-align: center;font-size: 19px;color: white;font-family: "宋体";}
+.counter ul .fw img{width: 100%;}
+.counter ul .fve{width: 300px;overflow: hidden;left: 60.3229%;top: 747px;}
+.counter ul .fve p{text-align: center;font-size: 19px;color: white;font-family: "宋体";}
+.counter ul .fve img{width: 100%;}
+.counter ul .sw{width: 300px;overflow: hidden;left: 42.9761%;top: 833px;}
+.counter ul .sw p{text-align: center;font-size: 19px;color: white;font-family: "宋体";}
+.counter ul .sw img{width: 100%;}
+
+.counter ul .ss{width: 300px;overflow: hidden;left: 21.8333%;top: 810px;}
+.counter ul .ss p{text-align: center;font-size: 19px;color: white;font-family: "宋体";}
+.counter ul .ss img{width: 100%;}
+
+.counter ul .fade{width: 300px;overflow: hidden;left: 6.9895%;top: 609px;}
+.counter ul .fade p{text-align: center;font-size: 19px;color: white;font-family: "宋体";}
+.counter ul .fade img{width: 100%;}
+
+.counter ul .cod{width: 300px;overflow: hidden;left: 6.9895%;top: 339px;}
+.counter ul .cod p{text-align: center;font-size: 19px;color: white;font-family: "宋体";}
+.counter ul .cod img{width: 100%;}
+
+.counter ul .col{width: 300px;overflow: hidden;left: 21.9375%;top: 91px;}
+.counter ul .col p{text-align: center;font-size: 19px;color: white;font-family: "宋体";}
+.counter ul .col img{width: 100%;}
+
+
+
+
+@media (max-width: 1208px) {
+	.counter h1{font-size: .78rem;color: white;position: absolute;left: 2.94rem;top: 3.3rem;}
+.counter ul{overflow: hidden;}
+.counter ul li{overflow: hidden;position: absolute;font-family: "宋体";}
+.counter ul li p{font-size: 20px;color: white;text-align: center;}
+.counter ul .on{width: 1.6rem;overflow: hidden;left: 3.09rem;top: 1.23rem;}
+.counter ul .on p{text-align: center;font-size: .14rem;color: white;font-family: "宋体";}
+.counter ul .on img{width: 100%;}
+.counter ul .tw{width: 1.6rem;overflow: hidden;left: 5.1rem;top: 1.23rem;}
+.counter ul .tw p{text-align: center;font-size: .14rem;color: white;font-family: "宋体";}
+.counter ul .tw img{width: 100%;}
+.counter ul .cw{width: 1.6rem;overflow: hidden;left: 3rem;top: 5.5rem;}
+.counter ul .cw p{text-align: center;font-size: .14rem;color: white;font-family: "宋体";}
+.counter ul .cw img{width: 100%;}
+
+.counter ul .fw{width: 1.6rem;overflow: hidden;left: 4.1rem;top: 10.91rem;}
+.counter ul .fw p{text-align: center;font-size: .14rem;color: white;font-family: "宋体";}
+.counter ul .fw img{width: 100%;}
+.counter ul .fve{width: 1.6rem;overflow: hidden;left: 1.8rem;top: 8.16rem;}
+.counter ul .fve p{text-align: center;font-size: .14rem;color: white;font-family: "宋体";}
+.counter ul .fve img{width: 100%;}
+
+.counter ul .sw{width:1.6rem;overflow: hidden;left: 4.1rem;top: 8.13rem;}
+.counter ul .sw p{text-align: center;font-size: .14rem;color: white;font-family: "宋体";}
+.counter ul .sw img{width: 100%;}
+
+.counter ul .ss{width: 1.6rem;overflow: hidden;left: 1.8rem;top: 10.91rem;}
+.counter ul .ss p{text-align: center;font-size: .14rem;color: white;font-family: "宋体";}
+.counter ul .ss img{width: 100%;}
+
+.counter ul .fade{width: 1.6rem;overflow: hidden;left: 5.2rem;top: 5.5rem;}
+.counter ul .fade p{text-align: center;font-size: .14rem;color: white;font-family: "宋体";}
+.counter ul .fade img{width: 100%;}
+
+.counter ul .cod{width: 1.6rem;overflow: hidden;left: .8rem;top: 5.5rem;}
+.counter ul .cod p{text-align: center;font-size: .14rem;color: white;font-family: "宋体";}
+.counter ul .cod img{width: 100%;}
+
+.counter ul .col{width: 1.6rem;overflow: hidden;left: .86rem;top: 1.26rem;}
+.counter ul .col p{text-align: center;font-size: .14rem;color: white;font-family: "宋体";}
+.counter ul .col img{width: 100%;}
+
+
+
+
+
+
+}
+@media (max-width: 414px) {
+	.counter{position: relative;width: 100%;height: 1200px;overflow: hidden;}
+.counter h1{font-size: .64rem;color: white;position: absolute;left: 3.03rem;top:.78rem;}
+.counter ul{overflow: hidden;}
+.counter ul li{overflow: hidden;position: absolute;font-family: "宋体";}
+.counter ul li p{font-size: 20px;color: white;text-align: center;font-family: "宋体";}
+.counter ul .on{width: 40%;overflow: hidden;left: 4.5rem;top: 4.24rem;}
+.counter ul .on p{text-align: center;font-size: .14rem;color: white;font-family: "宋体";}
+.counter ul .on img{width: 100%;}
+.counter ul .tw{width: 40%;overflow: hidden;left: .52rem;top: 7.37rem;}
+.counter ul .tw p{text-align: center;font-size: .14rem;color: white;font-family: "宋体";}
+.counter ul .tw img{width: 100%;}
+.counter ul .cw{width: 40%;overflow: hidden;left: .52rem;top: 10.93rem;}
+.counter ul .cw p{text-align: center;font-size: .14rem;color: white;font-family: "宋体";}
+.counter ul .cw img{width: 100%;}
+.h2{font-size: .46rem;color: white;line-height: .88rem;margin: 1.6rem 0;text-align: center;}
+.counter ul .fw{width: 40%;overflow: hidden;left: 4.63rem;top: 15.06rem;}
+.counter ul .fw p{text-align: center;font-size: .14rem;color: white;font-family: "宋体";}
+.counter ul .fw img{width: 100%;}
+.counter ul .fve{width: 40%;overflow: hidden;left: .52rem;top: 15.06rem;}
+.counter ul .fve p{text-align: center;font-size: .14rem;color: white;font-family: "宋体";}
+.counter ul .fve img{width: 100%;}
+
+.counter ul .sw{width: 40%;overflow: hidden;left: 4.63rem;top: 18.91rem;}
+.counter ul .sw p{text-align: center;font-size: .14rem;color: white;font-family: "宋体";}
+.counter ul .sw img{width: 100%;}
+
+.counter ul .ss{width: 40%;overflow: hidden;left: .52rem;top: 18.91rem;}
+.counter ul .ss p{text-align: center;font-size: .14rem;color: white;font-family: "宋体";}
+.counter ul .ss img{width: 100%;}
+
+.counter ul .fade{width: 40%;overflow: hidden;left: 4.63rem;top: 10.93rem;}
+.counter ul .fade p{text-align: center;font-size: .14rem;color: white;font-family: "宋体";}
+.counter ul .fade img{width: 100%;}
+
+.counter ul .cod{width: 40%;overflow: hidden;left: 4.63rem;top: 7.37rem;}
+.counter ul .cod p{text-align: center;font-size: .14rem;color: white;font-family: "宋体";}
+.counter ul .cod img{width: 100%;}
+
+.counter ul .col{width: 40%;overflow: hidden;left: .52rem;top: 4.24rem;}
+.counter ul .col p{text-align: center;font-size: .14rem;color: white;font-family: "宋体";}
+.counter ul .col img{width: 100%;}
+
+
+
+
+}
+
+@media (max-width: 768px) {
+.headers{width: 6.57rem;margin: 0 auto;border-top: 4px solid white;border-bottom: 4px solid white;margin-top: .48rem;overflow: hidden;}
+.headers ul{overflow: hidden;}
+.headers ul li{float: left;font-size: .29rem;color: white;line-height: .7rem;width: 20%;}
+.headers ul li a{color: white;}
+.counters{width: 100%;overflow: hidden;}
+.counters .ys{font-size: .38rem;color: white;text-align: center;line-height: 2.4rem;}
+.counters .font{font-size: .56rem;color: white;text-align: center;width: 6.53rem;margin: 0 auto;}
+.counters .lis{overflow: hidden;width: 6.55rem;margin: 0 auto;}
+.counters .lis li{width: 100%;overflow: hidden;padding: .4rem .13rem .28rem .13rem;box-sizing: border-box;background: #F19844;margin-top: .6rem;}
+.counters .lis li .logo{width: 100%;overflow: hidden;}
+.counters .lis li .logo img{width: 1.72rem;display: block;margin: 0 auto;}
+.counters .lis li .logo p{font-size: .23rem;color: white;text-align: center;line-height: .6rem;}
+.counters .lis li h1{width: 100%;float: right;font-size: .28rem;color: white;line-height: .38rem;padding: .4rem .2rem;box-sizing: border-box;}
+.cens{width: 6.65rem;display: block;margin: 0 auto;}
+.nth{width: 100%;overflow: hidden;margin: 0 auto;}
+.nth li{overflow: hidden;width: 6.59rem;margin: 0 auto;margin-bottom: 1.21rem;}
+.nth li img{width: 2.22rem;display: block;margin: 0 auto;height: 1.84rem;}
+.nth li p{font-size: .32rem;color: white;line-height: .64rem;width: 3.75rem;text-align: left}
+.nth li h1{text-align: center;font-size: .34rem;color: white;line-height: .64rem;font-weight: bold;margin-bottom: .5rem;}
+.fot{width: 6.56rem;overflow: hidden;margin: 0 auto;margin-top: 3.4rem;}
+.fot span{display: block;font-size: .23rem;color: white;position: absolute;right: 580px;top: 0;}
+.fot img{width: 5.12rem;overflow: hidden;display: block;margin: 0 auto;}
+.fot p{font-size: .32rem;color: white;line-height: .64rem;position: relative; text-align: left}
+
+.counters .lis1{overflow: hidden;width: 6.55rem;margin: 0 auto;}
+.counters .lis1 li{width: 100%;overflow: hidden;padding: .4rem .13rem .28rem .13rem;box-sizing: border-box;background: #5B80BD;margin-top: .6rem;}
+.counters .lis1 li .logo{width: 100%;overflow: hidden;}
+.counters .lis1 li .logo img{width: 1.72rem;display: block;margin: 0 auto;}
+.counters .lis1 li .logo p{font-size: .23rem;color: white;text-align: center;line-height: .6rem;}
+.counters .lis1 li h1{width: 100%;float: right;font-size: .28rem;color: white;line-height: .38rem;padding: .4rem .2rem;box-sizing: border-box;}
+
+.counters .lis2{overflow: hidden;width: 6.55rem;margin: 0 auto;}
+.counters .lis2 li{width: 100%;overflow: hidden;padding: .4rem .13rem .28rem .13rem;box-sizing: border-box;background: #338E62;margin-top: .6rem;}
+.counters .lis2 li .logo{width: 100%;overflow: hidden;}
+.counters .lis2 li .logo img{width: 1.72rem;display: block;margin: 0 auto;}
+.counters .lis2 li .logo p{font-size: .23rem;color: white;text-align: center;line-height: .6rem;}
+.counters .lis2 li h1{width: 100%;float: right;font-size: .28rem;color: white;line-height: .38rem;padding: .4rem .2rem;box-sizing: border-box;}
+
+.counters .lis3{overflow: hidden;width: 6.55rem;margin: 0 auto;}
+.counters .lis3 li{width: 100%;overflow: hidden;padding: .4rem .13rem .28rem .13rem;box-sizing: border-box;background: #e0808a;margin-top: .6rem;}
+.counters .lis3 li .logo{width: 100%;overflow: hidden;}
+.counters .lis3 li .logo img{width: 1.72rem;display: block;margin: 0 auto;}
+.counters .lis3 li .logo p{font-size: .23rem;color: white;text-align: center;line-height: .6rem;}
+.counters .lis3 li h1{width: 100%;float: right;font-size: .28rem;color: white;line-height: .38rem;padding: .4rem .2rem;box-sizing: border-box;}
+
+.counters .lis4{overflow: hidden;width: 6.55rem;margin: 0 auto;}
+.counters .lis4 li{width: 100%;overflow: hidden;padding: .4rem .13rem .28rem .13rem;box-sizing: border-box;background: #795697;margin-top: .6rem;}
+.counters .lis4 li .logo{width: 100%;overflow: hidden;}
+.counters .lis4 li .logo img{width: 1.72rem;display: block;margin: 0 auto;}
+.counters .lis4 li .logo p{font-size: .23rem;color: white;text-align: center;line-height: .6rem;}
+.counters .lis4 li h1{width: 100%;float: right;font-size: .28rem;color: white;line-height: .38rem;padding: .4rem .2rem;box-sizing: border-box;}
+
+.counters .lis5{overflow: hidden;width: 6.55rem;margin: 0 auto;}
+.counters .lis5 li{width: 100%;overflow: hidden;padding: .4rem .13rem .28rem .13rem;box-sizing: border-box;background: #e39a80;margin-top: .6rem;}
+.counters .lis5 li .logo{width: 100%;overflow: hidden;}
+.counters .lis5 li .logo img{width: 1.72rem;display: block;margin: 0 auto;}
+.counters .lis5 li .logo p{font-size: .23rem;color: white;text-align: center;line-height: .6rem;}
+.counters .lis5 li h1{width: 100%;float: right;font-size: .28rem;color: white;line-height: .38rem;padding: .4rem .2rem;box-sizing: border-box;}
+
+.counters .lis6{overflow: hidden;width: 6.55rem;margin: 0 auto;}
+.counters .lis6 li{width: 100%;overflow: hidden;padding: .4rem .13rem .28rem .13rem;box-sizing: border-box;background: #d2674d;margin-top: .6rem;}
+.counters .lis6 li .logo{width: 100%;overflow: hidden;}
+.counters .lis6 li .logo img{width: 1.72rem;display: block;margin: 0 auto;}
+.counters .lis6 li .logo p{font-size: .23rem;color: white;text-align: center;line-height: .6rem;}
+.counters .lis6 li h1{width: 100%;float: right;font-size: .28rem;color: white;line-height: .38rem;padding: .4rem .2rem;box-sizing: border-box;}
+
+.counters .lis7{overflow: hidden;width: 6.55rem;margin: 0 auto;}
+.counters .lis7 li{width: 100%;overflow: hidden;padding: .4rem .13rem .28rem .13rem;box-sizing: border-box;background: #6ec4c2;margin-top: .6rem;}
+.counters .lis7 li .logo{width: 100%;overflow: hidden;}
+.counters .lis7 li .logo img{width: 1.72rem;display: block;margin: 0 auto;}
+.counters .lis7 li .logo p{font-size: .23rem;color: white;text-align: center;line-height: .6rem;}
+.counters .lis7 li h1{width: 100%;float: right;font-size: .28rem;color: white;line-height: .38rem;padding: .4rem .2rem;box-sizing: border-box;}
+
+.counters .lis8{overflow: hidden;width: 6.55rem;margin: 0 auto;}
+.counters .lis8 li{width: 100%;overflow: hidden;padding: .4rem .13rem .28rem .13rem;box-sizing: border-box;background: #7CB2D9;margin-top: .6rem;}
+.counters .lis8 li .logo{width: 100%;overflow: hidden;}
+.counters .lis8 li .logo img{width: 1.72rem;display: block;margin: 0 auto;}
+.counters .lis8 li .logo p{font-size: .23rem;color: white;text-align: center;line-height: .6rem;}
+.counters .lis8 li h1{width: 100%;float: right;font-size: .28rem;color: white;line-height: .38rem;padding: .4rem .2rem;box-sizing: border-box;}
+
+}

@@ -44,6 +44,28 @@ ul {
 .header1{
   color:white;
     font-size:70px;
+-webkit-animation-name: delay; 
+    animation-name: plan;
+    animation: delay 2s infinite;
+}
+
+
+@-webkit-keyframes delay {
+    0%   {color: yellow;}
+    100%  {color: red;}
+}
+
+@keyframes delay {
+    0%   {color: yellow;}
+    100%  {color: red;}
+}
+
+
+
+
+.header2{
+  color:white;
+    font-size:70px;
 -webkit-animation-name: plan; 
     animation-name: plan;
     animation: plan 2s infinite;
@@ -51,15 +73,14 @@ ul {
 
 
 @-webkit-keyframes plan {
-    0%   {color: red;}
-    100%  {color: yellow;}
+    0%   {color: yellow;}
+    100%  {color: green;}
 }
 
 @keyframes plan {
-    0%   {color: red;}
-    100%  {color: yellow;}
+    0%   {color: yellow;}
+    100%  {color: green;}
 }
-
 
 
 
